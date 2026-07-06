@@ -53,8 +53,9 @@ def answer_question(
     text = llm.generate(prompt, model=settings.model_fast, temperature=0.2,
                         max_tokens=1500, trace=trace, span_name="rag_answer")
 
-    # Resolve [E#] citations that actually appear in the answer -> source labels
-    used_ids = sorted(set(re.findall(r"\[E(\d+)\]", text)), key=int)
+    # Resolve E# citations that appear in the answer -> source labels. Matches
+    # both standalone [E3] and grouped forms like [E5, E6, E7].
+    used_ids = sorted(set(re.findall(r"E(\d+)", text)), key=int)
     used_eids = [f"E{i}" for i in used_ids]
     citations = evidence.labels_for(used_eids)
 
