@@ -1,0 +1,13 @@
+{
+  "doc_id": "prd-009",
+  "source_type": "prd",
+  "title": "PRD: CSV export of raw data",
+  "created_at": "2026-04-12",
+  "text": "# PRD \u2014 CSV export of raw data\nProduct area: Reporting & Export\nStatus: Approved\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request csv export of raw data. This appears in support tickets and NPS feedback for the Reporting & Export area.\n\n## Proposed solution\nImplement csv export of raw data with configuration in workspace settings.\n\n## Success metrics\nReduce Reporting & Export-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nCommitted for next quarter.",
+  "metadata": {
+    "feature": "CSV export of raw data",
+    "product_area": "Reporting & Export",
+    "status": "Approved",
+    "prioritized": true
+  }
+}

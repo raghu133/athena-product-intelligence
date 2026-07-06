@@ -1,0 +1,15 @@
+{
+  "doc_id": "ticket-002",
+  "source_type": "support_ticket",
+  "title": "[LOW] Dashboards issue \u2014 Zephyr Logistics",
+  "created_at": "2025-07-07",
+  "text": "Customer: Zephyr Logistics (Mid-Market)\nProduct area: Dashboards\nPriority: low\nStatus: resolved\n\nDescription: The dashboard takes 6 seconds to load when I have more than 5 widgets. It's unusable for our morning standup.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+  "metadata": {
+    "customer": "Zephyr Logistics",
+    "tier": "Mid-Market",
+    "product_area": "Dashboards",
+    "status": "resolved",
+    "priority": "low",
+    "sentiment": "negative"
+  }
+}

@@ -1,0 +1,20 @@
+# --- Core LLM / embeddings ---
+google-genai>=1.0.0
+
+# --- Vector store & retrieval ---
+chromadb>=0.5.0
+rank-bm25>=0.2.2
+
+# --- Data / utils ---
+pydantic>=2.6.0
+python-dotenv>=1.0.0
+tenacity>=8.2.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# --- UI ---
+streamlit>=1.36.0
+plotly>=5.22.0
+
+# --- Testing ---
+pytest>=8.0.0

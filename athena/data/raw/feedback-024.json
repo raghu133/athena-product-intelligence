@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-024",
+  "source_type": "customer_feedback",
+  "title": "Feedback from Ferns & Co \u2014 API & Webhooks",
+  "created_at": "2025-10-31",
+  "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 5\nProduct area: API & Webhooks\n\nComment: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nRequested improvement: Please add 'SSO/SAML support'.",
+  "metadata": {
+    "customer": "Ferns & Co",
+    "tier": "SMB",
+    "product_area": "API & Webhooks",
+    "nps": 5,
+    "requested_feature": "SSO/SAML support",
+    "sentiment": "negative"
+  }
+}

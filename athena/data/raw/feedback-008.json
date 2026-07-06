@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-008",
+  "source_type": "customer_feedback",
+  "title": "Feedback from Cobalt Health \u2014 Dashboards",
+  "created_at": "2025-08-09",
+  "text": "Source: In-app NPS survey\nCustomer: Cobalt Health (Enterprise)\nNPS score: 8\nProduct area: Dashboards\n\nComment: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+  "metadata": {
+    "customer": "Cobalt Health",
+    "tier": "Enterprise",
+    "product_area": "Dashboards",
+    "nps": 8,
+    "requested_feature": "Scheduled report exports",
+    "sentiment": "positive"
+  }
+}

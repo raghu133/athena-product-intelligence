@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-070",
+  "source_type": "customer_feedback",
+  "title": "Feedback from Zephyr Logistics \u2014 Dashboards",
+  "created_at": "2026-06-24",
+  "text": "Source: In-app NPS survey\nCustomer: Zephyr Logistics (Mid-Market)\nNPS score: 8\nProduct area: Dashboards\n\nComment: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nRequested improvement: Please add 'Usage-based billing tiers'.",
+  "metadata": {
+    "customer": "Zephyr Logistics",
+    "tier": "Mid-Market",
+    "product_area": "Dashboards",
+    "nps": 8,
+    "requested_feature": "Usage-based billing tiers",
+    "sentiment": "positive"
+  }
+}

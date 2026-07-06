@@ -1,0 +1,14 @@
+{
+  "doc_id": "gh-020",
+  "source_type": "github_issue",
+  "title": "[performance] Mobile App: reported by Quill Publishing",
+  "created_at": "2025-11-23",
+  "text": "Issue #1019 \u2014 performance in Mobile App\nState: closed\nLabels: performance, area:mobile-app\n\nOriginating customer report: Quill Publishing.\nSteps to reproduce documented. Fixed in release 7.4 and verified.",
+  "metadata": {
+    "product_area": "Mobile App",
+    "state": "closed",
+    "kind": "performance",
+    "customer": "Quill Publishing",
+    "fixed": true
+  }
+}

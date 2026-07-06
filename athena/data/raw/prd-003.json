@@ -1,0 +1,13 @@
+{
+  "doc_id": "prd-003",
+  "source_type": "prd",
+  "title": "PRD: Slack integration",
+  "created_at": "2025-11-05",
+  "text": "# PRD \u2014 Slack integration\nProduct area: Integrations\nStatus: Approved\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request slack integration. This appears in support tickets and NPS feedback for the Integrations area.\n\n## Proposed solution\nImplement slack integration with configuration in workspace settings.\n\n## Success metrics\nReduce Integrations-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nCommitted for next quarter.",
+  "metadata": {
+    "feature": "Slack integration",
+    "product_area": "Integrations",
+    "status": "Approved",
+    "prioritized": true
+  }
+}

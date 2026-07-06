@@ -1,0 +1,13 @@
+{
+  "doc_id": "interview-009",
+  "source_type": "customer_interview",
+  "title": "Customer interview \u2014 Northwind Trading",
+  "created_at": "2026-05-21",
+  "text": "# Interview: Northwind Trading (Enterprise)\nDate: 2026-05-21\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Integrations. It slows the whole team down and there's no 'SSO/SAML support'.\n\nQ: If we fixed one thing?\nA: Give us 'SSO/SAML support'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+  "metadata": {
+    "customer": "Northwind Trading",
+    "tier": "Enterprise",
+    "product_area": "Integrations",
+    "requested_feature": "SSO/SAML support"
+  }
+}

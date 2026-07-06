@@ -1,0 +1,13 @@
+{
+  "doc_id": "interview-003",
+  "source_type": "customer_interview",
+  "title": "Customer interview \u2014 Quill Publishing",
+  "created_at": "2026-03-08",
+  "text": "# Interview: Quill Publishing (SMB)\nDate: 2026-03-08\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Integrations. It slows the whole team down and there's no 'Webhook retries'.\n\nQ: If we fixed one thing?\nA: Give us 'Webhook retries'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+  "metadata": {
+    "customer": "Quill Publishing",
+    "tier": "SMB",
+    "product_area": "Integrations",
+    "requested_feature": "Webhook retries"
+  }
+}

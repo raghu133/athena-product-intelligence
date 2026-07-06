@@ -1,0 +1,15 @@
+{
+  "doc_id": "ticket-044",
+  "source_type": "support_ticket",
+  "title": "[MEDIUM] Mobile App issue \u2014 Northwind Trading",
+  "created_at": "2026-01-08",
+  "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Mobile App\nPriority: medium\nStatus: open\n\nDescription: The mobile app crashes on Android 14 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+  "metadata": {
+    "customer": "Northwind Trading",
+    "tier": "Enterprise",
+    "product_area": "Mobile App",
+    "status": "open",
+    "priority": "medium",
+    "sentiment": "negative"
+  }
+}

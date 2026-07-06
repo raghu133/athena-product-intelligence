@@ -1,0 +1,14 @@
+{
+  "doc_id": "gh-017",
+  "source_type": "github_issue",
+  "title": "[performance] Notifications: reported by Cobalt Health",
+  "created_at": "2025-11-11",
+  "text": "Issue #1016 \u2014 performance in Notifications\nState: open\nLabels: performance, area:notifications\n\nOriginating customer report: Cobalt Health.\nSteps to reproduce documented. Still under investigation.",
+  "metadata": {
+    "product_area": "Notifications",
+    "state": "open",
+    "kind": "performance",
+    "customer": "Cobalt Health",
+    "fixed": false
+  }
+}

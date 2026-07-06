@@ -1,0 +1,13 @@
+{
+  "doc_id": "prd-011",
+  "source_type": "prd",
+  "title": "PRD: Global search across workspaces",
+  "created_at": "2026-05-01",
+  "text": "# PRD \u2014 Global search across workspaces\nProduct area: Search\nStatus: Shipped\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request global search across workspaces. This appears in support tickets and NPS feedback for the Search area.\n\n## Proposed solution\nImplement global search across workspaces with configuration in workspace settings.\n\n## Success metrics\nReduce Search-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nCommitted for next quarter.",
+  "metadata": {
+    "feature": "Global search across workspaces",
+    "product_area": "Search",
+    "status": "Shipped",
+    "prioritized": true
+  }
+}

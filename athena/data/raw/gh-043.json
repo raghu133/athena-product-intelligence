@@ -1,0 +1,14 @@
+{
+  "doc_id": "gh-043",
+  "source_type": "github_issue",
+  "title": "[enhancement] Integrations: reported by Ferns & Co",
+  "created_at": "2026-03-09",
+  "text": "Issue #1042 \u2014 enhancement in Integrations\nState: closed\nLabels: enhancement, area:integrations\n\nOriginating customer report: Ferns & Co.\nSteps to reproduce documented. Fixed in release 5.9 and verified.",
+  "metadata": {
+    "product_area": "Integrations",
+    "state": "closed",
+    "kind": "enhancement",
+    "customer": "Ferns & Co",
+    "fixed": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "doc_id": "prd-010",
+  "source_type": "prd",
+  "title": "PRD: Real-time cursor presence",
+  "created_at": "2025-11-30",
+  "text": "# PRD \u2014 Real-time cursor presence\nProduct area: Real-time Collaboration\nStatus: Not started\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request real-time cursor presence. This appears in support tickets and NPS feedback for the Real-time Collaboration area.\n\n## Proposed solution\nImplement real-time cursor presence with configuration in workspace settings.\n\n## Success metrics\nReduce Real-time Collaboration-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nBacklog \u2014 not yet prioritized.",
+  "metadata": {
+    "feature": "Real-time cursor presence",
+    "product_area": "Real-time Collaboration",
+    "status": "Not started",
+    "prioritized": false
+  }
+}

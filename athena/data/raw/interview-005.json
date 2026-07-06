@@ -1,0 +1,13 @@
+{
+  "doc_id": "interview-005",
+  "source_type": "customer_interview",
+  "title": "Customer interview \u2014 Acme Robotics",
+  "created_at": "2026-03-12",
+  "text": "# Interview: Acme Robotics (Enterprise)\nDate: 2026-03-12\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Mobile App. It slows the whole team down and there's no 'Slack integration'.\n\nQ: If we fixed one thing?\nA: Give us 'Slack integration'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+  "metadata": {
+    "customer": "Acme Robotics",
+    "tier": "Enterprise",
+    "product_area": "Mobile App",
+    "requested_feature": "Slack integration"
+  }
+}

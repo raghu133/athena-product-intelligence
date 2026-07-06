@@ -1,0 +1,15 @@
+{
+  "doc_id": "ticket-013",
+  "source_type": "support_ticket",
+  "title": "[LOW] Reporting & Export issue \u2014 Ferns & Co",
+  "created_at": "2025-08-10",
+  "text": "Customer: Ferns & Co (SMB)\nProduct area: Reporting & Export\nPriority: low\nStatus: in_progress\n\nDescription: Exporting a report over 8 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+  "metadata": {
+    "customer": "Ferns & Co",
+    "tier": "SMB",
+    "product_area": "Reporting & Export",
+    "status": "in_progress",
+    "priority": "low",
+    "sentiment": "negative"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-059",
+  "source_type": "customer_feedback",
+  "title": "Feedback from BlueOrbit Media \u2014 Notifications",
+  "created_at": "2026-04-01",
+  "text": "Source: In-app NPS survey\nCustomer: BlueOrbit Media (Mid-Market)\nNPS score: 1\nProduct area: Notifications\n\nComment: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nRequested improvement: Please add 'Granular notification controls'.",
+  "metadata": {
+    "customer": "BlueOrbit Media",
+    "tier": "Mid-Market",
+    "product_area": "Notifications",
+    "nps": 1,
+    "requested_feature": "Granular notification controls",
+    "sentiment": "negative"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "doc_id": "gh-056",
+  "source_type": "github_issue",
+  "title": "[enhancement] Reporting & Export: reported by Cobalt Health",
+  "created_at": "2026-05-16",
+  "text": "Issue #1055 \u2014 enhancement in Reporting & Export\nState: open\nLabels: enhancement, area:reporting-&-export\n\nOriginating customer report: Cobalt Health.\nSteps to reproduce documented. Still under investigation.",
+  "metadata": {
+    "product_area": "Reporting & Export",
+    "state": "open",
+    "kind": "enhancement",
+    "customer": "Cobalt Health",
+    "fixed": false
+  }
+}

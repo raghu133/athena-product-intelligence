@@ -1,0 +1,15 @@
+{
+  "doc_id": "ticket-087",
+  "source_type": "support_ticket",
+  "title": "[HIGH] Billing issue \u2014 Vantage Analytics",
+  "created_at": "2026-06-16",
+  "text": "Customer: Vantage Analytics (Enterprise)\nProduct area: Billing\nPriority: high\nStatus: in_progress\n\nDescription: The billing page double-charged us this month and support took 9 days to reply.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+  "metadata": {
+    "customer": "Vantage Analytics",
+    "tier": "Enterprise",
+    "product_area": "Billing",
+    "status": "in_progress",
+    "priority": "high",
+    "sentiment": "negative"
+  }
+}

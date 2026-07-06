@@ -1,0 +1,12 @@
+{
+  "doc_id": "meeting-013",
+  "source_type": "meeting_notes",
+  "title": "Product sync \u2014 2026-05-07",
+  "created_at": "2026-05-07",
+  "text": "# Weekly Product Sync \u2014 2026-05-07\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Vantage Analytics escalated Search problems again; churn risk flagged.\n- Repeated ask for 'Custom dashboard widgets' across accounts.\n- Eng notes Search generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Custom dashboard widgets' for roadmap.\n- [ ] Investigate Search performance regressions.\n- [ ] Follow up with Vantage Analytics.",
+  "metadata": {
+    "product_area": "Search",
+    "feature": "Custom dashboard widgets",
+    "customer": "Vantage Analytics"
+  }
+}

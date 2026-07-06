@@ -1,0 +1,13 @@
+{
+  "doc_id": "interview-007",
+  "source_type": "customer_interview",
+  "title": "Customer interview \u2014 Vantage Analytics",
+  "created_at": "2026-04-23",
+  "text": "# Interview: Vantage Analytics (Enterprise)\nDate: 2026-04-23\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Notifications. It slows the whole team down and there's no 'Usage-based billing tiers'.\n\nQ: If we fixed one thing?\nA: Give us 'Usage-based billing tiers'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+  "metadata": {
+    "customer": "Vantage Analytics",
+    "tier": "Enterprise",
+    "product_area": "Notifications",
+    "requested_feature": "Usage-based billing tiers"
+  }
+}

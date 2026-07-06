@@ -1,0 +1,15 @@
+{
+  "doc_id": "ticket-004",
+  "source_type": "support_ticket",
+  "title": "[MEDIUM] Mobile App issue \u2014 BlueOrbit Media",
+  "created_at": "2025-07-09",
+  "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Mobile App\nPriority: medium\nStatus: resolved\n\nDescription: The mobile app crashes on Android 15 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+  "metadata": {
+    "customer": "BlueOrbit Media",
+    "tier": "Mid-Market",
+    "product_area": "Mobile App",
+    "status": "resolved",
+    "priority": "medium",
+    "sentiment": "negative"
+  }
+}

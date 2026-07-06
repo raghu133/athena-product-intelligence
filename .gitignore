@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+athena/data/store/
+.chroma/
+*.log
+.venv/
+venv/
+.DS_Store
+.streamlit/secrets.toml

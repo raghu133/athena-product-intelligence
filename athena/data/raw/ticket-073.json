@@ -1,0 +1,15 @@
+{
+  "doc_id": "ticket-073",
+  "source_type": "support_ticket",
+  "title": "[MEDIUM] Search issue \u2014 Northwind Trading",
+  "created_at": "2026-05-10",
+  "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Search\nPriority: medium\nStatus: open\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+  "metadata": {
+    "customer": "Northwind Trading",
+    "tier": "Enterprise",
+    "product_area": "Search",
+    "status": "open",
+    "priority": "medium",
+    "sentiment": "negative"
+  }
+}

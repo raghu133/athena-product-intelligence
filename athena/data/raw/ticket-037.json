@@ -1,0 +1,15 @@
+{
+  "doc_id": "ticket-037",
+  "source_type": "support_ticket",
+  "title": "[MEDIUM] Mobile App issue \u2014 Sunrise Bank",
+  "created_at": "2025-12-20",
+  "text": "Customer: Sunrise Bank (Enterprise)\nProduct area: Mobile App\nPriority: medium\nStatus: in_progress\n\nDescription: The mobile app crashes on Android 15 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+  "metadata": {
+    "customer": "Sunrise Bank",
+    "tier": "Enterprise",
+    "product_area": "Mobile App",
+    "status": "in_progress",
+    "priority": "medium",
+    "sentiment": "negative"
+  }
+}

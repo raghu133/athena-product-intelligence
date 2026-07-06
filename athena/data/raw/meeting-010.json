@@ -1,0 +1,12 @@
+{
+  "doc_id": "meeting-010",
+  "source_type": "meeting_notes",
+  "title": "Product sync \u2014 2026-04-08",
+  "created_at": "2026-04-08",
+  "text": "# Weekly Product Sync \u2014 2026-04-08\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Peak Outfitters escalated Mobile App problems again; churn risk flagged.\n- Repeated ask for 'CSV export of raw data' across accounts.\n- Eng notes Mobile App generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'CSV export of raw data' for roadmap.\n- [ ] Investigate Mobile App performance regressions.\n- [ ] Follow up with Peak Outfitters.",
+  "metadata": {
+    "product_area": "Mobile App",
+    "feature": "CSV export of raw data",
+    "customer": "Peak Outfitters"
+  }
+}

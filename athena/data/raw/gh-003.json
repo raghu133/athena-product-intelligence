@@ -1,0 +1,14 @@
+{
+  "doc_id": "gh-003",
+  "source_type": "github_issue",
+  "title": "[enhancement] User Management & SSO: reported by Zephyr Logistics",
+  "created_at": "2025-07-26",
+  "text": "Issue #1002 \u2014 enhancement in User Management & SSO\nState: closed\nLabels: enhancement, area:user-management-&-sso\n\nOriginating customer report: Zephyr Logistics.\nSteps to reproduce documented. Fixed in release 6.0 and verified.",
+  "metadata": {
+    "product_area": "User Management & SSO",
+    "state": "closed",
+    "kind": "enhancement",
+    "customer": "Zephyr Logistics",
+    "fixed": true
+  }
+}

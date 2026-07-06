@@ -1,0 +1,15 @@
+{
+  "doc_id": "ticket-061",
+  "source_type": "support_ticket",
+  "title": "[HIGH] Reporting & Export issue \u2014 Northwind Trading",
+  "created_at": "2026-03-12",
+  "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Reporting & Export\nPriority: high\nStatus: resolved\n\nDescription: Exporting a report over 5 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+  "metadata": {
+    "customer": "Northwind Trading",
+    "tier": "Enterprise",
+    "product_area": "Reporting & Export",
+    "status": "resolved",
+    "priority": "high",
+    "sentiment": "negative"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-013",
+  "source_type": "customer_feedback",
+  "title": "Feedback from Sunrise Bank \u2014 Reporting & Export",
+  "created_at": "2025-09-21",
+  "text": "Source: In-app NPS survey\nCustomer: Sunrise Bank (Enterprise)\nNPS score: 0\nProduct area: Reporting & Export\n\nComment: Exporting a report over 8 rows times out and I lose all my work.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+  "metadata": {
+    "customer": "Sunrise Bank",
+    "tier": "Enterprise",
+    "product_area": "Reporting & Export",
+    "nps": 0,
+    "requested_feature": "Scheduled report exports",
+    "sentiment": "negative"
+  }
+}

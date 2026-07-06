@@ -1,0 +1,14 @@
+{
+  "doc_id": "gh-008",
+  "source_type": "github_issue",
+  "title": "[bug] Real-time Collaboration: reported by BlueOrbit Media",
+  "created_at": "2025-09-09",
+  "text": "Issue #1007 \u2014 bug in Real-time Collaboration\nState: open\nLabels: bug, area:real-time-collaboration\n\nOriginating customer report: BlueOrbit Media.\nSteps to reproduce documented. Still under investigation.",
+  "metadata": {
+    "product_area": "Real-time Collaboration",
+    "state": "open",
+    "kind": "bug",
+    "customer": "BlueOrbit Media",
+    "fixed": false
+  }
+}

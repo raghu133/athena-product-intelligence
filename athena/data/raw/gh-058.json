@@ -1,0 +1,14 @@
+{
+  "doc_id": "gh-058",
+  "source_type": "github_issue",
+  "title": "[enhancement] API & Webhooks: reported by BlueOrbit Media",
+  "created_at": "2026-05-28",
+  "text": "Issue #1057 \u2014 enhancement in API & Webhooks\nState: closed\nLabels: enhancement, area:api-&-webhooks\n\nOriginating customer report: BlueOrbit Media.\nSteps to reproduce documented. Fixed in release 4.9 and verified.",
+  "metadata": {
+    "product_area": "API & Webhooks",
+    "state": "closed",
+    "kind": "enhancement",
+    "customer": "BlueOrbit Media",
+    "fixed": true
+  }
+}

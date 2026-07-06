@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-056",
+  "source_type": "customer_feedback",
+  "title": "Feedback from Ferns & Co \u2014 Reporting & Export",
+  "created_at": "2026-03-25",
+  "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 8\nProduct area: Reporting & Export\n\nComment: Scheduled exports saved my team hours every week.\n\nRequested improvement: Please add 'Dark mode'.",
+  "metadata": {
+    "customer": "Ferns & Co",
+    "tier": "SMB",
+    "product_area": "Reporting & Export",
+    "nps": 8,
+    "requested_feature": "Dark mode",
+    "sentiment": "positive"
+  }
+}

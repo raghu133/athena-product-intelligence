@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-022",
+  "source_type": "customer_feedback",
+  "title": "Feedback from BlueOrbit Media \u2014 API & Webhooks",
+  "created_at": "2025-10-24",
+  "text": "Source: In-app NPS survey\nCustomer: BlueOrbit Media (Mid-Market)\nNPS score: 5\nProduct area: API & Webhooks\n\nComment: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nRequested improvement: Please add 'Custom dashboard widgets'.",
+  "metadata": {
+    "customer": "BlueOrbit Media",
+    "tier": "Mid-Market",
+    "product_area": "API & Webhooks",
+    "nps": 5,
+    "requested_feature": "Custom dashboard widgets",
+    "sentiment": "negative"
+  }
+}

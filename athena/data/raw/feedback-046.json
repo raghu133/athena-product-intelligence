@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-046",
+  "source_type": "customer_feedback",
+  "title": "Feedback from Northwind Trading \u2014 Dashboards",
+  "created_at": "2026-02-13",
+  "text": "Source: In-app NPS survey\nCustomer: Northwind Trading (Enterprise)\nNPS score: 2\nProduct area: Dashboards\n\nComment: The dashboard takes 8 seconds to load when I have more than 5 widgets. It's unusable for our morning standup.\n\nRequested improvement: Please add 'Webhook retries'.",
+  "metadata": {
+    "customer": "Northwind Trading",
+    "tier": "Enterprise",
+    "product_area": "Dashboards",
+    "nps": 2,
+    "requested_feature": "Webhook retries",
+    "sentiment": "negative"
+  }
+}

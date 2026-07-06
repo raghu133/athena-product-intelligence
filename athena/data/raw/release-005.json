@@ -1,0 +1,12 @@
+{
+  "doc_id": "release-005",
+  "source_type": "release_notes",
+  "title": "Release v5.0 \u2014 2026-01-02",
+  "created_at": "2026-01-02",
+  "text": "# Flowdesk Release v5.0 (2026-01-02)\n\n## New\n- Shipped **CSV export of raw data** in Reporting & Export. This directly addresses top customer requests.\n## Fixed\n- Resolved Reporting & Export performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows Reporting & Export support tickets down after this release.",
+  "metadata": {
+    "feature": "CSV export of raw data",
+    "product_area": "Reporting & Export",
+    "version": "v5.0"
+  }
+}

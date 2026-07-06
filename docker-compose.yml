@@ -1,0 +1,16 @@
+services:
+  athena:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    env_file:
+      - .env
+    volumes:
+      # Persist indexes, memory, and traces across restarts.
+      - athena_store:/app/athena/data/store
+    restart: unless-stopped
+
+volumes:
+  athena_store:

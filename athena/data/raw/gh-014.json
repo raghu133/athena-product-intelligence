@@ -1,0 +1,14 @@
+{
+  "doc_id": "gh-014",
+  "source_type": "github_issue",
+  "title": "[bug] Real-time Collaboration: reported by Ferns & Co",
+  "created_at": "2025-10-15",
+  "text": "Issue #1013 \u2014 bug in Real-time Collaboration\nState: open\nLabels: bug, area:real-time-collaboration\n\nOriginating customer report: Ferns & Co.\nSteps to reproduce documented. Still under investigation.",
+  "metadata": {
+    "product_area": "Real-time Collaboration",
+    "state": "open",
+    "kind": "bug",
+    "customer": "Ferns & Co",
+    "fixed": false
+  }
+}

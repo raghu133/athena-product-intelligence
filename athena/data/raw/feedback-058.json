@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-058",
+  "source_type": "customer_feedback",
+  "title": "Feedback from Northwind Trading \u2014 Mobile App",
+  "created_at": "2026-03-29",
+  "text": "Source: In-app NPS survey\nCustomer: Northwind Trading (Enterprise)\nNPS score: 5\nProduct area: Mobile App\n\nComment: The mobile app crashes on Android 15 whenever I open a shared dashboard.\n\nRequested improvement: Please add 'Webhook retries'.",
+  "metadata": {
+    "customer": "Northwind Trading",
+    "tier": "Enterprise",
+    "product_area": "Mobile App",
+    "nps": 5,
+    "requested_feature": "Webhook retries",
+    "sentiment": "negative"
+  }
+}

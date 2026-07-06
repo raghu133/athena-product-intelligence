@@ -1,0 +1,14 @@
+{
+  "doc_id": "gh-013",
+  "source_type": "github_issue",
+  "title": "[enhancement] Billing: reported by Northwind Trading",
+  "created_at": "2025-09-20",
+  "text": "Issue #1012 \u2014 enhancement in Billing\nState: closed\nLabels: enhancement, area:billing\n\nOriginating customer report: Northwind Trading.\nSteps to reproduce documented. Fixed in release 4.6 and verified.",
+  "metadata": {
+    "product_area": "Billing",
+    "state": "closed",
+    "kind": "enhancement",
+    "customer": "Northwind Trading",
+    "fixed": true
+  }
+}

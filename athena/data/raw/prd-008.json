@@ -1,0 +1,13 @@
+{
+  "doc_id": "prd-008",
+  "source_type": "prd",
+  "title": "PRD: Bulk user provisioning (SCIM)",
+  "created_at": "2025-11-28",
+  "text": "# PRD \u2014 Bulk user provisioning (SCIM)\nProduct area: User Management & SSO\nStatus: Not started\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request bulk user provisioning (scim). This appears in support tickets and NPS feedback for the User Management & SSO area.\n\n## Proposed solution\nImplement bulk user provisioning (scim) with configuration in workspace settings.\n\n## Success metrics\nReduce User Management & SSO-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nBacklog \u2014 not yet prioritized.",
+  "metadata": {
+    "feature": "Bulk user provisioning (SCIM)",
+    "product_area": "User Management & SSO",
+    "status": "Not started",
+    "prioritized": false
+  }
+}

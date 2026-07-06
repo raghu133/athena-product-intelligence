@@ -1,0 +1,13 @@
+{
+  "doc_id": "prd-004",
+  "source_type": "prd",
+  "title": "PRD: Dark mode",
+  "created_at": "2026-05-16",
+  "text": "# PRD \u2014 Dark mode\nProduct area: Mobile App\nStatus: Not started\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request dark mode. This appears in support tickets and NPS feedback for the Mobile App area.\n\n## Proposed solution\nImplement dark mode with configuration in workspace settings.\n\n## Success metrics\nReduce Mobile App-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nBacklog \u2014 not yet prioritized.",
+  "metadata": {
+    "feature": "Dark mode",
+    "product_area": "Mobile App",
+    "status": "Not started",
+    "prioritized": false
+  }
+}

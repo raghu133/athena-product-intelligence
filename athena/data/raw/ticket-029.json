@@ -1,0 +1,15 @@
+{
+  "doc_id": "ticket-029",
+  "source_type": "support_ticket",
+  "title": "[LOW] Real-time Collaboration issue \u2014 Northwind Trading",
+  "created_at": "2025-11-08",
+  "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Real-time Collaboration\nPriority: low\nStatus: open\n\nDescription: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+  "metadata": {
+    "customer": "Northwind Trading",
+    "tier": "Enterprise",
+    "product_area": "Real-time Collaboration",
+    "status": "open",
+    "priority": "low",
+    "sentiment": "negative"
+  }
+}

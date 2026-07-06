@@ -1,0 +1,14 @@
+{
+  "doc_id": "gh-049",
+  "source_type": "github_issue",
+  "title": "[enhancement] Notifications: reported by Vantage Analytics",
+  "created_at": "2026-04-30",
+  "text": "Issue #1048 \u2014 enhancement in Notifications\nState: closed\nLabels: enhancement, area:notifications\n\nOriginating customer report: Vantage Analytics.\nSteps to reproduce documented. Fixed in release 4.3 and verified.",
+  "metadata": {
+    "product_area": "Notifications",
+    "state": "closed",
+    "kind": "enhancement",
+    "customer": "Vantage Analytics",
+    "fixed": true
+  }
+}

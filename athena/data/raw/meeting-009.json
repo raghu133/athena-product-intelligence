@@ -1,0 +1,12 @@
+{
+  "doc_id": "meeting-009",
+  "source_type": "meeting_notes",
+  "title": "Product sync \u2014 2026-04-07",
+  "created_at": "2026-04-07",
+  "text": "# Weekly Product Sync \u2014 2026-04-07\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Vantage Analytics escalated Integrations problems again; churn risk flagged.\n- Repeated ask for 'Bulk user provisioning (SCIM)' across accounts.\n- Eng notes Integrations generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Bulk user provisioning (SCIM)' for roadmap.\n- [ ] Investigate Integrations performance regressions.\n- [ ] Follow up with Vantage Analytics.",
+  "metadata": {
+    "product_area": "Integrations",
+    "feature": "Bulk user provisioning (SCIM)",
+    "customer": "Vantage Analytics"
+  }
+}

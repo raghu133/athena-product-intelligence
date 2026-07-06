@@ -1,0 +1,19 @@
+{
+  "doc_id": "competitor-003",
+  "source_type": "competitor_analysis",
+  "title": "Competitive analysis: Nimbus Suite",
+  "created_at": "2026-05-05",
+  "text": "# Competitor Analysis \u2014 Nimbus Suite\nDate: 2026-05-05\n\n## Strengths\nNimbus Suite is strong in: Search, Dashboards, Reporting & Export. Notably they ship SSO/SAML and global search out of the box.\n\n## Weaknesses\nWeaker in: Billing, Notifications.\n\n## Threat assessment\nWe are losing evaluations where customers need SSO and cross-workspace search \u2014 both frequent Flowdesk requests. Recommend prioritizing these to defend Enterprise deals.",
+  "metadata": {
+    "competitor": "Nimbus Suite",
+    "strengths": [
+      "Search",
+      "Dashboards",
+      "Reporting & Export"
+    ],
+    "weaknesses": [
+      "Billing",
+      "Notifications"
+    ]
+  }
+}

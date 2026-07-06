@@ -1,0 +1,12 @@
+{
+  "doc_id": "meeting-017",
+  "source_type": "meeting_notes",
+  "title": "Product sync \u2014 2026-05-14",
+  "created_at": "2026-05-14",
+  "text": "# Weekly Product Sync \u2014 2026-05-14\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Zephyr Logistics escalated Integrations problems again; churn risk flagged.\n- Repeated ask for 'Scheduled report exports' across accounts.\n- Eng notes Integrations generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Scheduled report exports' for roadmap.\n- [ ] Investigate Integrations performance regressions.\n- [ ] Follow up with Zephyr Logistics.",
+  "metadata": {
+    "product_area": "Integrations",
+    "feature": "Scheduled report exports",
+    "customer": "Zephyr Logistics"
+  }
+}

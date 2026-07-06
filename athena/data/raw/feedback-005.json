@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-005",
+  "source_type": "customer_feedback",
+  "title": "Feedback from Acme Robotics \u2014 Integrations",
+  "created_at": "2025-07-13",
+  "text": "Source: In-app NPS survey\nCustomer: Acme Robotics (Enterprise)\nNPS score: 1\nProduct area: Integrations\n\nComment: The Slack integration disconnects every few days and we have to re-auth.\n\nRequested improvement: Please add 'Real-time cursor presence'.",
+  "metadata": {
+    "customer": "Acme Robotics",
+    "tier": "Enterprise",
+    "product_area": "Integrations",
+    "nps": 1,
+    "requested_feature": "Real-time cursor presence",
+    "sentiment": "negative"
+  }
+}

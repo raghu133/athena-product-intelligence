@@ -1,0 +1,15 @@
+{
+  "doc_id": "feedback-042",
+  "source_type": "customer_feedback",
+  "title": "Feedback from Peak Outfitters \u2014 Integrations",
+  "created_at": "2026-02-02",
+  "text": "Source: In-app NPS survey\nCustomer: Peak Outfitters (SMB)\nNPS score: 10\nProduct area: Integrations\n\nComment: Love how easy the Zapier integration was to set up.\n\nRequested improvement: Please add 'Webhook retries'.",
+  "metadata": {
+    "customer": "Peak Outfitters",
+    "tier": "SMB",
+    "product_area": "Integrations",
+    "nps": 10,
+    "requested_feature": "Webhook retries",
+    "sentiment": "positive"
+  }
+}

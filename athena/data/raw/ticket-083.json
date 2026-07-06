@@ -1,0 +1,15 @@
+{
+  "doc_id": "ticket-083",
+  "source_type": "support_ticket",
+  "title": "[MEDIUM] Mobile App issue \u2014 Acme Robotics",
+  "created_at": "2026-05-27",
+  "text": "Customer: Acme Robotics (Enterprise)\nProduct area: Mobile App\nPriority: medium\nStatus: resolved\n\nDescription: The mobile app crashes on Android 15 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+  "metadata": {
+    "customer": "Acme Robotics",
+    "tier": "Enterprise",
+    "product_area": "Mobile App",
+    "status": "resolved",
+    "priority": "medium",
+    "sentiment": "negative"
+  }
+}
