@@ -67,7 +67,7 @@ class Settings:
     # --- Agent knobs -----------------------------------------------------
     max_subquestions: int = 6          # planner decomposition breadth
     max_research_rounds: int = 2       # follow-up research iterations
-    embed_batch_size: int = 32
+    embed_batch_size: int = 8          # conservative for free-tier embed limits
 
     @property
     def has_api_key(self) -> bool:

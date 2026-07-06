@@ -2,7 +2,9 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-athena/data/store/
+# NOTE: athena/data/store/ is intentionally committed with a prebuilt index so
+# the hosted demo loads instantly without re-embedding (Gemini free-tier has a
+# 100 req/min embedding cap). Delete it and rebuild locally to regenerate.
 .chroma/
 *.log
 .venv/

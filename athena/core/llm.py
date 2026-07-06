@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 import re
+import time
 from typing import Any, Optional
 
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
@@ -45,7 +46,12 @@ def _get_client():
 
 
 class _Transient(Exception):
-    pass
+    """Wraps a retryable API error. Carries the server-advised retry delay (s)
+    parsed from a 429 RESOURCE_EXHAUSTED response, so we can wait exactly as long
+    as the free-tier quota window requires instead of guessing."""
+    def __init__(self, message: str, retry_after: float = 0.0):
+        super().__init__(message)
+        self.retry_after = retry_after
 
 
 def _is_transient(exc: BaseException) -> bool:
@@ -54,9 +60,25 @@ def _is_transient(exc: BaseException) -> bool:
                                   "500", "deadline", "timeout", "rate"))
 
 
+def _parse_retry_after(msg: str) -> float:
+    """Extract the server's advised wait from a 429 ('Please retry in 28.4s' or
+    'retryDelay': '28s'). Returns 0 if none found."""
+    m = re.search(r"retry(?:delay)?['\"]?\s*[:in]*\s*['\"]?(\d+(?:\.\d+)?)s", msg, re.I)
+    return float(m.group(1)) if m else 0.0
+
+
+# Free-tier quota can force waits of ~30s; allow enough attempts/time to ride
+# through a per-minute rate-limit window rather than failing the whole build.
+def _wait_strategy(retry_state) -> float:
+    exc = retry_state.outcome.exception() if retry_state.outcome else None
+    advised = getattr(exc, "retry_after", 0.0) if exc else 0.0
+    backoff = min(2.0 * (2 ** (retry_state.attempt_number - 1)), 30.0)
+    return max(advised + 1.0, backoff)  # honor server delay, +1s safety margin
+
+
 _retry = retry(
-    stop=stop_after_attempt(4),
-    wait=wait_exponential(multiplier=1.5, min=2, max=30),
+    stop=stop_after_attempt(6),
+    wait=_wait_strategy,
     retry=retry_if_exception_type(_Transient),
     reraise=True,
 )
@@ -67,7 +89,7 @@ def _call(fn, *args, **kwargs):
         return fn(*args, **kwargs)
     except Exception as exc:  # noqa: BLE001
         if _is_transient(exc):
-            raise _Transient(str(exc)) from exc
+            raise _Transient(str(exc), _parse_retry_after(str(exc))) from exc
         raise
 
 
@@ -180,16 +202,23 @@ def embed(
                 output_dimensionality=settings.embed_dim,
             ),
         )
-        return [list(e.values) for e in resp.embeddings]
+        # Non-3072 output dims must be L2-normalized for correct cosine similarity
+        # (per Gemini embedding docs). We store 768-dim, so normalize here.
+        return [_l2_normalize(list(e.values)) for e in resp.embeddings]
+
+    def _run() -> None:
+        for i in range(0, len(texts), batch):
+            vectors.extend(_do_batch(texts[i:i + batch]))
+            # Gentle pacing to stay under free-tier rate limits on large corpora.
+            if i + batch < len(texts):
+                time.sleep(0.2)
 
     if trace is not None:
         with trace.span("embed", "retrieval", n=len(texts), task_type=task_type) as sp:
-            for i in range(0, len(texts), batch):
-                vectors.extend(_do_batch(texts[i:i + batch]))
+            _run()
             sp.outputs = {"n_vectors": len(vectors)}
     else:
-        for i in range(0, len(texts), batch):
-            vectors.extend(_do_batch(texts[i:i + batch]))
+        _run()
     return vectors
 
 
@@ -198,6 +227,13 @@ def embed_query(text: str, trace: Optional[Trace] = None) -> list[float]:
 
 
 # --- helpers -------------------------------------------------------------
+def _l2_normalize(vec: list[float]) -> list[float]:
+    norm = sum(v * v for v in vec) ** 0.5
+    if norm == 0:
+        return vec
+    return [v / norm for v in vec]
+
+
 def _approx_tokens(text: str) -> int:
     return max(1, len(text) // 4)
 
