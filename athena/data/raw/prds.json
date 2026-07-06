@@ -1,0 +1,158 @@
+[
+  {
+    "doc_id": "prd-001",
+    "source_type": "prd",
+    "title": "PRD: SSO/SAML support",
+    "created_at": "2025-11-01",
+    "text": "# PRD \u2014 SSO/SAML support\nProduct area: User Management & SSO\nStatus: Draft\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request sso/saml support. This appears in support tickets and NPS feedback for the User Management & SSO area.\n\n## Proposed solution\nImplement sso/saml support with configuration in workspace settings.\n\n## Success metrics\nReduce User Management & SSO-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nCommitted for next quarter.",
+    "metadata": {
+      "feature": "SSO/SAML support",
+      "product_area": "User Management & SSO",
+      "status": "Draft",
+      "prioritized": true
+    }
+  },
+  {
+    "doc_id": "prd-002",
+    "source_type": "prd",
+    "title": "PRD: Scheduled report exports",
+    "created_at": "2025-09-24",
+    "text": "# PRD \u2014 Scheduled report exports\nProduct area: Reporting & Export\nStatus: Not started\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request scheduled report exports. This appears in support tickets and NPS feedback for the Reporting & Export area.\n\n## Proposed solution\nImplement scheduled report exports with configuration in workspace settings.\n\n## Success metrics\nReduce Reporting & Export-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nBacklog \u2014 not yet prioritized.",
+    "metadata": {
+      "feature": "Scheduled report exports",
+      "product_area": "Reporting & Export",
+      "status": "Not started",
+      "prioritized": false
+    }
+  },
+  {
+    "doc_id": "prd-003",
+    "source_type": "prd",
+    "title": "PRD: Slack integration",
+    "created_at": "2025-11-05",
+    "text": "# PRD \u2014 Slack integration\nProduct area: Integrations\nStatus: Approved\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request slack integration. This appears in support tickets and NPS feedback for the Integrations area.\n\n## Proposed solution\nImplement slack integration with configuration in workspace settings.\n\n## Success metrics\nReduce Integrations-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nCommitted for next quarter.",
+    "metadata": {
+      "feature": "Slack integration",
+      "product_area": "Integrations",
+      "status": "Approved",
+      "prioritized": true
+    }
+  },
+  {
+    "doc_id": "prd-004",
+    "source_type": "prd",
+    "title": "PRD: Dark mode",
+    "created_at": "2026-05-16",
+    "text": "# PRD \u2014 Dark mode\nProduct area: Mobile App\nStatus: Not started\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request dark mode. This appears in support tickets and NPS feedback for the Mobile App area.\n\n## Proposed solution\nImplement dark mode with configuration in workspace settings.\n\n## Success metrics\nReduce Mobile App-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nBacklog \u2014 not yet prioritized.",
+    "metadata": {
+      "feature": "Dark mode",
+      "product_area": "Mobile App",
+      "status": "Not started",
+      "prioritized": false
+    }
+  },
+  {
+    "doc_id": "prd-005",
+    "source_type": "prd",
+    "title": "PRD: Custom dashboard widgets",
+    "created_at": "2025-11-24",
+    "text": "# PRD \u2014 Custom dashboard widgets\nProduct area: Dashboards\nStatus: In Review\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request custom dashboard widgets. This appears in support tickets and NPS feedback for the Dashboards area.\n\n## Proposed solution\nImplement custom dashboard widgets with configuration in workspace settings.\n\n## Success metrics\nReduce Dashboards-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nCommitted for next quarter.",
+    "metadata": {
+      "feature": "Custom dashboard widgets",
+      "product_area": "Dashboards",
+      "status": "In Review",
+      "prioritized": true
+    }
+  },
+  {
+    "doc_id": "prd-006",
+    "source_type": "prd",
+    "title": "PRD: Webhook retries",
+    "created_at": "2025-10-17",
+    "text": "# PRD \u2014 Webhook retries\nProduct area: API & Webhooks\nStatus: Not started\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request webhook retries. This appears in support tickets and NPS feedback for the API & Webhooks area.\n\n## Proposed solution\nImplement webhook retries with configuration in workspace settings.\n\n## Success metrics\nReduce API & Webhooks-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nBacklog \u2014 not yet prioritized.",
+    "metadata": {
+      "feature": "Webhook retries",
+      "product_area": "API & Webhooks",
+      "status": "Not started",
+      "prioritized": false
+    }
+  },
+  {
+    "doc_id": "prd-007",
+    "source_type": "prd",
+    "title": "PRD: Granular notification controls",
+    "created_at": "2025-10-17",
+    "text": "# PRD \u2014 Granular notification controls\nProduct area: Notifications\nStatus: In Review\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request granular notification controls. This appears in support tickets and NPS feedback for the Notifications area.\n\n## Proposed solution\nImplement granular notification controls with configuration in workspace settings.\n\n## Success metrics\nReduce Notifications-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nCommitted for next quarter.",
+    "metadata": {
+      "feature": "Granular notification controls",
+      "product_area": "Notifications",
+      "status": "In Review",
+      "prioritized": true
+    }
+  },
+  {
+    "doc_id": "prd-008",
+    "source_type": "prd",
+    "title": "PRD: Bulk user provisioning (SCIM)",
+    "created_at": "2025-11-28",
+    "text": "# PRD \u2014 Bulk user provisioning (SCIM)\nProduct area: User Management & SSO\nStatus: Not started\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request bulk user provisioning (scim). This appears in support tickets and NPS feedback for the User Management & SSO area.\n\n## Proposed solution\nImplement bulk user provisioning (scim) with configuration in workspace settings.\n\n## Success metrics\nReduce User Management & SSO-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nBacklog \u2014 not yet prioritized.",
+    "metadata": {
+      "feature": "Bulk user provisioning (SCIM)",
+      "product_area": "User Management & SSO",
+      "status": "Not started",
+      "prioritized": false
+    }
+  },
+  {
+    "doc_id": "prd-009",
+    "source_type": "prd",
+    "title": "PRD: CSV export of raw data",
+    "created_at": "2026-04-12",
+    "text": "# PRD \u2014 CSV export of raw data\nProduct area: Reporting & Export\nStatus: Approved\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request csv export of raw data. This appears in support tickets and NPS feedback for the Reporting & Export area.\n\n## Proposed solution\nImplement csv export of raw data with configuration in workspace settings.\n\n## Success metrics\nReduce Reporting & Export-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nCommitted for next quarter.",
+    "metadata": {
+      "feature": "CSV export of raw data",
+      "product_area": "Reporting & Export",
+      "status": "Approved",
+      "prioritized": true
+    }
+  },
+  {
+    "doc_id": "prd-010",
+    "source_type": "prd",
+    "title": "PRD: Real-time cursor presence",
+    "created_at": "2025-11-30",
+    "text": "# PRD \u2014 Real-time cursor presence\nProduct area: Real-time Collaboration\nStatus: Not started\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request real-time cursor presence. This appears in support tickets and NPS feedback for the Real-time Collaboration area.\n\n## Proposed solution\nImplement real-time cursor presence with configuration in workspace settings.\n\n## Success metrics\nReduce Real-time Collaboration-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nBacklog \u2014 not yet prioritized.",
+    "metadata": {
+      "feature": "Real-time cursor presence",
+      "product_area": "Real-time Collaboration",
+      "status": "Not started",
+      "prioritized": false
+    }
+  },
+  {
+    "doc_id": "prd-011",
+    "source_type": "prd",
+    "title": "PRD: Global search across workspaces",
+    "created_at": "2026-05-01",
+    "text": "# PRD \u2014 Global search across workspaces\nProduct area: Search\nStatus: Shipped\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request global search across workspaces. This appears in support tickets and NPS feedback for the Search area.\n\n## Proposed solution\nImplement global search across workspaces with configuration in workspace settings.\n\n## Success metrics\nReduce Search-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nCommitted for next quarter.",
+    "metadata": {
+      "feature": "Global search across workspaces",
+      "product_area": "Search",
+      "status": "Shipped",
+      "prioritized": true
+    }
+  },
+  {
+    "doc_id": "prd-012",
+    "source_type": "prd",
+    "title": "PRD: Usage-based billing tiers",
+    "created_at": "2026-01-11",
+    "text": "# PRD \u2014 Usage-based billing tiers\nProduct area: Billing\nStatus: Not started\nAuthor: Product team\n\n## Problem\nCustomers repeatedly request usage-based billing tiers. This appears in support tickets and NPS feedback for the Billing area.\n\n## Proposed solution\nImplement usage-based billing tiers with configuration in workspace settings.\n\n## Success metrics\nReduce Billing-related complaints by 30%; adoption > 40% in 60 days.\n\n## Priority\nBacklog \u2014 not yet prioritized.",
+    "metadata": {
+      "feature": "Usage-based billing tiers",
+      "product_area": "Billing",
+      "status": "Not started",
+      "prioritized": false
+    }
+  }
+]

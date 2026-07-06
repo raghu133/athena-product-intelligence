@@ -1,0 +1,290 @@
+[
+  {
+    "doc_id": "meeting-001",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-01-13",
+    "created_at": "2026-01-13",
+    "text": "# Weekly Product Sync \u2014 2026-01-13\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Ferns & Co escalated Real-time Collaboration problems again; churn risk flagged.\n- Repeated ask for 'SSO/SAML support' across accounts.\n- Eng notes Real-time Collaboration generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'SSO/SAML support' for roadmap.\n- [ ] Investigate Real-time Collaboration performance regressions.\n- [ ] Follow up with Ferns & Co.",
+    "metadata": {
+      "product_area": "Real-time Collaboration",
+      "feature": "SSO/SAML support",
+      "customer": "Ferns & Co"
+    }
+  },
+  {
+    "doc_id": "meeting-002",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-01-18",
+    "created_at": "2026-01-18",
+    "text": "# Weekly Product Sync \u2014 2026-01-18\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Sunrise Bank escalated Notifications problems again; churn risk flagged.\n- Repeated ask for 'Slack integration' across accounts.\n- Eng notes Notifications generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Slack integration' for roadmap.\n- [ ] Investigate Notifications performance regressions.\n- [ ] Follow up with Sunrise Bank.",
+    "metadata": {
+      "product_area": "Notifications",
+      "feature": "Slack integration",
+      "customer": "Sunrise Bank"
+    }
+  },
+  {
+    "doc_id": "meeting-003",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-01-19",
+    "created_at": "2026-01-19",
+    "text": "# Weekly Product Sync \u2014 2026-01-19\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Acme Robotics escalated User Management & SSO problems again; churn risk flagged.\n- Repeated ask for 'Slack integration' across accounts.\n- Eng notes User Management & SSO generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Slack integration' for roadmap.\n- [ ] Investigate User Management & SSO performance regressions.\n- [ ] Follow up with Acme Robotics.",
+    "metadata": {
+      "product_area": "User Management & SSO",
+      "feature": "Slack integration",
+      "customer": "Acme Robotics"
+    }
+  },
+  {
+    "doc_id": "meeting-004",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-01-30",
+    "created_at": "2026-01-30",
+    "text": "# Weekly Product Sync \u2014 2026-01-30\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Northwind Trading escalated Dashboards problems again; churn risk flagged.\n- Repeated ask for 'Slack integration' across accounts.\n- Eng notes Dashboards generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Slack integration' for roadmap.\n- [ ] Investigate Dashboards performance regressions.\n- [ ] Follow up with Northwind Trading.",
+    "metadata": {
+      "product_area": "Dashboards",
+      "feature": "Slack integration",
+      "customer": "Northwind Trading"
+    }
+  },
+  {
+    "doc_id": "meeting-005",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-02-01",
+    "created_at": "2026-02-01",
+    "text": "# Weekly Product Sync \u2014 2026-02-01\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Peak Outfitters escalated Mobile App problems again; churn risk flagged.\n- Repeated ask for 'Dark mode' across accounts.\n- Eng notes Mobile App generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Dark mode' for roadmap.\n- [ ] Investigate Mobile App performance regressions.\n- [ ] Follow up with Peak Outfitters.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "feature": "Dark mode",
+      "customer": "Peak Outfitters"
+    }
+  },
+  {
+    "doc_id": "meeting-006",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-02-07",
+    "created_at": "2026-02-07",
+    "text": "# Weekly Product Sync \u2014 2026-02-07\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- BlueOrbit Media escalated Mobile App problems again; churn risk flagged.\n- Repeated ask for 'SSO/SAML support' across accounts.\n- Eng notes Mobile App generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'SSO/SAML support' for roadmap.\n- [ ] Investigate Mobile App performance regressions.\n- [ ] Follow up with BlueOrbit Media.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "feature": "SSO/SAML support",
+      "customer": "BlueOrbit Media"
+    }
+  },
+  {
+    "doc_id": "meeting-007",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-02-10",
+    "created_at": "2026-02-10",
+    "text": "# Weekly Product Sync \u2014 2026-02-10\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- BlueOrbit Media escalated User Management & SSO problems again; churn risk flagged.\n- Repeated ask for 'SSO/SAML support' across accounts.\n- Eng notes User Management & SSO generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'SSO/SAML support' for roadmap.\n- [ ] Investigate User Management & SSO performance regressions.\n- [ ] Follow up with BlueOrbit Media.",
+    "metadata": {
+      "product_area": "User Management & SSO",
+      "feature": "SSO/SAML support",
+      "customer": "BlueOrbit Media"
+    }
+  },
+  {
+    "doc_id": "meeting-008",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-03-07",
+    "created_at": "2026-03-07",
+    "text": "# Weekly Product Sync \u2014 2026-03-07\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Acme Robotics escalated API & Webhooks problems again; churn risk flagged.\n- Repeated ask for 'CSV export of raw data' across accounts.\n- Eng notes API & Webhooks generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'CSV export of raw data' for roadmap.\n- [ ] Investigate API & Webhooks performance regressions.\n- [ ] Follow up with Acme Robotics.",
+    "metadata": {
+      "product_area": "API & Webhooks",
+      "feature": "CSV export of raw data",
+      "customer": "Acme Robotics"
+    }
+  },
+  {
+    "doc_id": "meeting-009",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-04-07",
+    "created_at": "2026-04-07",
+    "text": "# Weekly Product Sync \u2014 2026-04-07\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Vantage Analytics escalated Integrations problems again; churn risk flagged.\n- Repeated ask for 'Bulk user provisioning (SCIM)' across accounts.\n- Eng notes Integrations generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Bulk user provisioning (SCIM)' for roadmap.\n- [ ] Investigate Integrations performance regressions.\n- [ ] Follow up with Vantage Analytics.",
+    "metadata": {
+      "product_area": "Integrations",
+      "feature": "Bulk user provisioning (SCIM)",
+      "customer": "Vantage Analytics"
+    }
+  },
+  {
+    "doc_id": "meeting-010",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-04-08",
+    "created_at": "2026-04-08",
+    "text": "# Weekly Product Sync \u2014 2026-04-08\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Peak Outfitters escalated Mobile App problems again; churn risk flagged.\n- Repeated ask for 'CSV export of raw data' across accounts.\n- Eng notes Mobile App generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'CSV export of raw data' for roadmap.\n- [ ] Investigate Mobile App performance regressions.\n- [ ] Follow up with Peak Outfitters.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "feature": "CSV export of raw data",
+      "customer": "Peak Outfitters"
+    }
+  },
+  {
+    "doc_id": "meeting-011",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-04-30",
+    "created_at": "2026-04-30",
+    "text": "# Weekly Product Sync \u2014 2026-04-30\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Sunrise Bank escalated Integrations problems again; churn risk flagged.\n- Repeated ask for 'Bulk user provisioning (SCIM)' across accounts.\n- Eng notes Integrations generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Bulk user provisioning (SCIM)' for roadmap.\n- [ ] Investigate Integrations performance regressions.\n- [ ] Follow up with Sunrise Bank.",
+    "metadata": {
+      "product_area": "Integrations",
+      "feature": "Bulk user provisioning (SCIM)",
+      "customer": "Sunrise Bank"
+    }
+  },
+  {
+    "doc_id": "meeting-012",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-05-03",
+    "created_at": "2026-05-03",
+    "text": "# Weekly Product Sync \u2014 2026-05-03\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Northwind Trading escalated Reporting & Export problems again; churn risk flagged.\n- Repeated ask for 'Real-time cursor presence' across accounts.\n- Eng notes Reporting & Export generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Real-time cursor presence' for roadmap.\n- [ ] Investigate Reporting & Export performance regressions.\n- [ ] Follow up with Northwind Trading.",
+    "metadata": {
+      "product_area": "Reporting & Export",
+      "feature": "Real-time cursor presence",
+      "customer": "Northwind Trading"
+    }
+  },
+  {
+    "doc_id": "meeting-013",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-05-07",
+    "created_at": "2026-05-07",
+    "text": "# Weekly Product Sync \u2014 2026-05-07\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Vantage Analytics escalated Search problems again; churn risk flagged.\n- Repeated ask for 'Custom dashboard widgets' across accounts.\n- Eng notes Search generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Custom dashboard widgets' for roadmap.\n- [ ] Investigate Search performance regressions.\n- [ ] Follow up with Vantage Analytics.",
+    "metadata": {
+      "product_area": "Search",
+      "feature": "Custom dashboard widgets",
+      "customer": "Vantage Analytics"
+    }
+  },
+  {
+    "doc_id": "meeting-014",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-05-08",
+    "created_at": "2026-05-08",
+    "text": "# Weekly Product Sync \u2014 2026-05-08\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Vantage Analytics escalated Dashboards problems again; churn risk flagged.\n- Repeated ask for 'SSO/SAML support' across accounts.\n- Eng notes Dashboards generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'SSO/SAML support' for roadmap.\n- [ ] Investigate Dashboards performance regressions.\n- [ ] Follow up with Vantage Analytics.",
+    "metadata": {
+      "product_area": "Dashboards",
+      "feature": "SSO/SAML support",
+      "customer": "Vantage Analytics"
+    }
+  },
+  {
+    "doc_id": "meeting-015",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-05-09",
+    "created_at": "2026-05-09",
+    "text": "# Weekly Product Sync \u2014 2026-05-09\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Acme Robotics escalated API & Webhooks problems again; churn risk flagged.\n- Repeated ask for 'Granular notification controls' across accounts.\n- Eng notes API & Webhooks generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Granular notification controls' for roadmap.\n- [ ] Investigate API & Webhooks performance regressions.\n- [ ] Follow up with Acme Robotics.",
+    "metadata": {
+      "product_area": "API & Webhooks",
+      "feature": "Granular notification controls",
+      "customer": "Acme Robotics"
+    }
+  },
+  {
+    "doc_id": "meeting-016",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-05-10",
+    "created_at": "2026-05-10",
+    "text": "# Weekly Product Sync \u2014 2026-05-10\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Vantage Analytics escalated Billing problems again; churn risk flagged.\n- Repeated ask for 'Usage-based billing tiers' across accounts.\n- Eng notes Billing generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Usage-based billing tiers' for roadmap.\n- [ ] Investigate Billing performance regressions.\n- [ ] Follow up with Vantage Analytics.",
+    "metadata": {
+      "product_area": "Billing",
+      "feature": "Usage-based billing tiers",
+      "customer": "Vantage Analytics"
+    }
+  },
+  {
+    "doc_id": "meeting-017",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-05-14",
+    "created_at": "2026-05-14",
+    "text": "# Weekly Product Sync \u2014 2026-05-14\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Zephyr Logistics escalated Integrations problems again; churn risk flagged.\n- Repeated ask for 'Scheduled report exports' across accounts.\n- Eng notes Integrations generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Scheduled report exports' for roadmap.\n- [ ] Investigate Integrations performance regressions.\n- [ ] Follow up with Zephyr Logistics.",
+    "metadata": {
+      "product_area": "Integrations",
+      "feature": "Scheduled report exports",
+      "customer": "Zephyr Logistics"
+    }
+  },
+  {
+    "doc_id": "meeting-018",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-05-25",
+    "created_at": "2026-05-25",
+    "text": "# Weekly Product Sync \u2014 2026-05-25\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Acme Robotics escalated Real-time Collaboration problems again; churn risk flagged.\n- Repeated ask for 'Slack integration' across accounts.\n- Eng notes Real-time Collaboration generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Slack integration' for roadmap.\n- [ ] Investigate Real-time Collaboration performance regressions.\n- [ ] Follow up with Acme Robotics.",
+    "metadata": {
+      "product_area": "Real-time Collaboration",
+      "feature": "Slack integration",
+      "customer": "Acme Robotics"
+    }
+  },
+  {
+    "doc_id": "meeting-019",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-05-30",
+    "created_at": "2026-05-30",
+    "text": "# Weekly Product Sync \u2014 2026-05-30\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Peak Outfitters escalated Notifications problems again; churn risk flagged.\n- Repeated ask for 'Custom dashboard widgets' across accounts.\n- Eng notes Notifications generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Custom dashboard widgets' for roadmap.\n- [ ] Investigate Notifications performance regressions.\n- [ ] Follow up with Peak Outfitters.",
+    "metadata": {
+      "product_area": "Notifications",
+      "feature": "Custom dashboard widgets",
+      "customer": "Peak Outfitters"
+    }
+  },
+  {
+    "doc_id": "meeting-020",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-05-31",
+    "created_at": "2026-05-31",
+    "text": "# Weekly Product Sync \u2014 2026-05-31\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Zephyr Logistics escalated Real-time Collaboration problems again; churn risk flagged.\n- Repeated ask for 'CSV export of raw data' across accounts.\n- Eng notes Real-time Collaboration generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'CSV export of raw data' for roadmap.\n- [ ] Investigate Real-time Collaboration performance regressions.\n- [ ] Follow up with Zephyr Logistics.",
+    "metadata": {
+      "product_area": "Real-time Collaboration",
+      "feature": "CSV export of raw data",
+      "customer": "Zephyr Logistics"
+    }
+  },
+  {
+    "doc_id": "meeting-021",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-06-08",
+    "created_at": "2026-06-08",
+    "text": "# Weekly Product Sync \u2014 2026-06-08\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Sunrise Bank escalated API & Webhooks problems again; churn risk flagged.\n- Repeated ask for 'Real-time cursor presence' across accounts.\n- Eng notes API & Webhooks generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Real-time cursor presence' for roadmap.\n- [ ] Investigate API & Webhooks performance regressions.\n- [ ] Follow up with Sunrise Bank.",
+    "metadata": {
+      "product_area": "API & Webhooks",
+      "feature": "Real-time cursor presence",
+      "customer": "Sunrise Bank"
+    }
+  },
+  {
+    "doc_id": "meeting-022",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-06-14",
+    "created_at": "2026-06-14",
+    "text": "# Weekly Product Sync \u2014 2026-06-14\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Sunrise Bank escalated User Management & SSO problems again; churn risk flagged.\n- Repeated ask for 'Bulk user provisioning (SCIM)' across accounts.\n- Eng notes User Management & SSO generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Bulk user provisioning (SCIM)' for roadmap.\n- [ ] Investigate User Management & SSO performance regressions.\n- [ ] Follow up with Sunrise Bank.",
+    "metadata": {
+      "product_area": "User Management & SSO",
+      "feature": "Bulk user provisioning (SCIM)",
+      "customer": "Sunrise Bank"
+    }
+  },
+  {
+    "doc_id": "meeting-023",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-06-19",
+    "created_at": "2026-06-19",
+    "text": "# Weekly Product Sync \u2014 2026-06-19\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Acme Robotics escalated Real-time Collaboration problems again; churn risk flagged.\n- Repeated ask for 'Granular notification controls' across accounts.\n- Eng notes Real-time Collaboration generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Granular notification controls' for roadmap.\n- [ ] Investigate Real-time Collaboration performance regressions.\n- [ ] Follow up with Acme Robotics.",
+    "metadata": {
+      "product_area": "Real-time Collaboration",
+      "feature": "Granular notification controls",
+      "customer": "Acme Robotics"
+    }
+  },
+  {
+    "doc_id": "meeting-024",
+    "source_type": "meeting_notes",
+    "title": "Product sync \u2014 2026-06-26",
+    "created_at": "2026-06-26",
+    "text": "# Weekly Product Sync \u2014 2026-06-26\nAttendees: PM, Eng Lead, CS Lead\n\n## Discussion\n- Sunrise Bank escalated Integrations problems again; churn risk flagged.\n- Repeated ask for 'Global search across workspaces' across accounts.\n- Eng notes Integrations generates the most support load this month.\n\n## Action items\n- [ ] Evaluate 'Global search across workspaces' for roadmap.\n- [ ] Investigate Integrations performance regressions.\n- [ ] Follow up with Sunrise Bank.",
+    "metadata": {
+      "product_area": "Integrations",
+      "feature": "Global search across workspaces",
+      "customer": "Sunrise Bank"
+    }
+  }
+]

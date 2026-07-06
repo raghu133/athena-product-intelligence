@@ -85,11 +85,29 @@ def _dates(rng: random.Random, n: int, start_days_ago: int = 360) -> list[str]:
     )
 
 
+# Consolidated output: one JSON array per source type, mirroring how real
+# systems export "all tickets" / "all feedback" rather than one file per record.
+_GROUP_FILES = {
+    "support_ticket": "support_tickets.json",
+    "customer_feedback": "customer_feedback.json",
+    "github_issue": "github_issues.json",
+    "meeting_notes": "meeting_notes.json",
+    "customer_interview": "customer_interviews.json",
+    "prd": "prds.json",
+    "release_notes": "release_notes.json",
+    "competitor_analysis": "competitor_analysis.json",
+}
+
+
 def _write(docs: list[dict]) -> None:
+    from collections import defaultdict
+    groups: dict[str, list[dict]] = defaultdict(list)
     for d in docs:
-        (RAW_DIR / f"{d['doc_id']}.json").write_text(
-            json.dumps(d, indent=2), encoding="utf-8"
-        )
+        groups[d["source_type"]].append(d)
+    for stype, items in groups.items():
+        fname = _GROUP_FILES.get(stype, f"{stype}.json")
+        items.sort(key=lambda x: x["doc_id"])
+        (RAW_DIR / fname).write_text(json.dumps(items, indent=2), encoding="utf-8")
 
 
 # --- Generators per source type -----------------------------------------

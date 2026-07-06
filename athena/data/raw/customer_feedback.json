@@ -1,0 +1,1052 @@
+[
+  {
+    "doc_id": "feedback-001",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Acme Robotics \u2014 Dashboards",
+    "created_at": "2025-07-07",
+    "text": "Source: In-app NPS survey\nCustomer: Acme Robotics (Enterprise)\nNPS score: 3\nProduct area: Dashboards\n\nComment: The dashboard takes 12 seconds to load when I have more than 8 widgets. It's unusable for our morning standup.\n\nRequested improvement: Please add 'Bulk user provisioning (SCIM)'.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "nps": 3,
+      "requested_feature": "Bulk user provisioning (SCIM)",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-002",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Zephyr Logistics \u2014 User Management & SSO",
+    "created_at": "2025-07-09",
+    "text": "Source: In-app NPS survey\nCustomer: Zephyr Logistics (Mid-Market)\nNPS score: 6\nProduct area: User Management & SSO\n\nComment: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "User Management & SSO",
+      "nps": 6,
+      "requested_feature": "Scheduled report exports",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-003",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Acme Robotics \u2014 Search",
+    "created_at": "2025-07-12",
+    "text": "Source: In-app NPS survey\nCustomer: Acme Robotics (Enterprise)\nNPS score: 5\nProduct area: Search\n\nComment: Search only looks in the current workspace. I can never find docs from other teams.\n\nRequested improvement: Please add 'Global search across workspaces'.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Search",
+      "nps": 5,
+      "requested_feature": "Global search across workspaces",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-004",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Northwind Trading \u2014 User Management & SSO",
+    "created_at": "2025-07-13",
+    "text": "Source: In-app NPS survey\nCustomer: Northwind Trading (Enterprise)\nNPS score: 1\nProduct area: User Management & SSO\n\nComment: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "User Management & SSO",
+      "nps": 1,
+      "requested_feature": "Scheduled report exports",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-005",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Acme Robotics \u2014 Integrations",
+    "created_at": "2025-07-13",
+    "text": "Source: In-app NPS survey\nCustomer: Acme Robotics (Enterprise)\nNPS score: 1\nProduct area: Integrations\n\nComment: The Slack integration disconnects every few days and we have to re-auth.\n\nRequested improvement: Please add 'Real-time cursor presence'.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Integrations",
+      "nps": 1,
+      "requested_feature": "Real-time cursor presence",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-006",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Sunrise Bank \u2014 Search",
+    "created_at": "2025-07-27",
+    "text": "Source: In-app NPS survey\nCustomer: Sunrise Bank (Enterprise)\nNPS score: 3\nProduct area: Search\n\nComment: Search only looks in the current workspace. I can never find docs from other teams.\n\nRequested improvement: Please add 'Real-time cursor presence'.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Search",
+      "nps": 3,
+      "requested_feature": "Real-time cursor presence",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-007",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Real-time Collaboration",
+    "created_at": "2025-08-05",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 0\nProduct area: Real-time Collaboration\n\nComment: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nRequested improvement: Please add 'Usage-based billing tiers'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Real-time Collaboration",
+      "nps": 0,
+      "requested_feature": "Usage-based billing tiers",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-008",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Cobalt Health \u2014 Dashboards",
+    "created_at": "2025-08-09",
+    "text": "Source: In-app NPS survey\nCustomer: Cobalt Health (Enterprise)\nNPS score: 8\nProduct area: Dashboards\n\nComment: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "nps": 8,
+      "requested_feature": "Scheduled report exports",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-009",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Cobalt Health \u2014 User Management & SSO",
+    "created_at": "2025-08-30",
+    "text": "Source: In-app NPS survey\nCustomer: Cobalt Health (Enterprise)\nNPS score: 3\nProduct area: User Management & SSO\n\nComment: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nRequested improvement: Please add 'SSO/SAML support'.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "User Management & SSO",
+      "nps": 3,
+      "requested_feature": "SSO/SAML support",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-010",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Vantage Analytics \u2014 Integrations",
+    "created_at": "2025-09-03",
+    "text": "Source: In-app NPS survey\nCustomer: Vantage Analytics (Enterprise)\nNPS score: 8\nProduct area: Integrations\n\nComment: Love how easy the Zapier integration was to set up.\n\nRequested improvement: Please add 'SSO/SAML support'.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Integrations",
+      "nps": 8,
+      "requested_feature": "SSO/SAML support",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-011",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Integrations",
+    "created_at": "2025-09-07",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 8\nProduct area: Integrations\n\nComment: Love how easy the Zapier integration was to set up.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "nps": 8,
+      "requested_feature": "Scheduled report exports",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-012",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Reporting & Export",
+    "created_at": "2025-09-20",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 7\nProduct area: Reporting & Export\n\nComment: Scheduled exports saved my team hours every week.\n\nRequested improvement: Please add 'Granular notification controls'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Reporting & Export",
+      "nps": 7,
+      "requested_feature": "Granular notification controls",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-013",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Sunrise Bank \u2014 Reporting & Export",
+    "created_at": "2025-09-21",
+    "text": "Source: In-app NPS survey\nCustomer: Sunrise Bank (Enterprise)\nNPS score: 0\nProduct area: Reporting & Export\n\nComment: Exporting a report over 8 rows times out and I lose all my work.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Reporting & Export",
+      "nps": 0,
+      "requested_feature": "Scheduled report exports",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-014",
+    "source_type": "customer_feedback",
+    "title": "Feedback from BlueOrbit Media \u2014 Reporting & Export",
+    "created_at": "2025-09-21",
+    "text": "Source: In-app NPS survey\nCustomer: BlueOrbit Media (Mid-Market)\nNPS score: 9\nProduct area: Reporting & Export\n\nComment: Scheduled exports saved my team hours every week.\n\nRequested improvement: Please add 'Real-time cursor presence'.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Reporting & Export",
+      "nps": 9,
+      "requested_feature": "Real-time cursor presence",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-015",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Vantage Analytics \u2014 Notifications",
+    "created_at": "2025-09-23",
+    "text": "Source: In-app NPS survey\nCustomer: Vantage Analytics (Enterprise)\nNPS score: 3\nProduct area: Notifications\n\nComment: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nRequested improvement: Please add 'Usage-based billing tiers'.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Notifications",
+      "nps": 3,
+      "requested_feature": "Usage-based billing tiers",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-016",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Integrations",
+    "created_at": "2025-09-30",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 4\nProduct area: Integrations\n\nComment: The Slack integration disconnects every few days and we have to re-auth.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "nps": 4,
+      "requested_feature": "Scheduled report exports",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-017",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Northwind Trading \u2014 Search",
+    "created_at": "2025-10-01",
+    "text": "Source: In-app NPS survey\nCustomer: Northwind Trading (Enterprise)\nNPS score: 0\nProduct area: Search\n\nComment: Search only looks in the current workspace. I can never find docs from other teams.\n\nRequested improvement: Please add 'SSO/SAML support'.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Search",
+      "nps": 0,
+      "requested_feature": "SSO/SAML support",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-018",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Cobalt Health \u2014 Dashboards",
+    "created_at": "2025-10-03",
+    "text": "Source: In-app NPS survey\nCustomer: Cobalt Health (Enterprise)\nNPS score: 9\nProduct area: Dashboards\n\nComment: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nRequested improvement: Please add 'Global search across workspaces'.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "nps": 9,
+      "requested_feature": "Global search across workspaces",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-019",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Peak Outfitters \u2014 Dashboards",
+    "created_at": "2025-10-06",
+    "text": "Source: In-app NPS survey\nCustomer: Peak Outfitters (SMB)\nNPS score: 3\nProduct area: Dashboards\n\nComment: The dashboard takes 5 seconds to load when I have more than 8 widgets. It's unusable for our morning standup.\n\nRequested improvement: Please add 'Global search across workspaces'.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "Dashboards",
+      "nps": 3,
+      "requested_feature": "Global search across workspaces",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-020",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 User Management & SSO",
+    "created_at": "2025-10-23",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 0\nProduct area: User Management & SSO\n\nComment: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nRequested improvement: Please add 'Bulk user provisioning (SCIM)'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "User Management & SSO",
+      "nps": 0,
+      "requested_feature": "Bulk user provisioning (SCIM)",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-021",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Vantage Analytics \u2014 API & Webhooks",
+    "created_at": "2025-10-23",
+    "text": "Source: In-app NPS survey\nCustomer: Vantage Analytics (Enterprise)\nNPS score: 0\nProduct area: API & Webhooks\n\nComment: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nRequested improvement: Please add 'Global search across workspaces'.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "API & Webhooks",
+      "nps": 0,
+      "requested_feature": "Global search across workspaces",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-022",
+    "source_type": "customer_feedback",
+    "title": "Feedback from BlueOrbit Media \u2014 API & Webhooks",
+    "created_at": "2025-10-24",
+    "text": "Source: In-app NPS survey\nCustomer: BlueOrbit Media (Mid-Market)\nNPS score: 5\nProduct area: API & Webhooks\n\nComment: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nRequested improvement: Please add 'Custom dashboard widgets'.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "API & Webhooks",
+      "nps": 5,
+      "requested_feature": "Custom dashboard widgets",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-023",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Quill Publishing \u2014 Reporting & Export",
+    "created_at": "2025-10-27",
+    "text": "Source: In-app NPS survey\nCustomer: Quill Publishing (SMB)\nNPS score: 9\nProduct area: Reporting & Export\n\nComment: Scheduled exports saved my team hours every week.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Reporting & Export",
+      "nps": 9,
+      "requested_feature": "Scheduled report exports",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-024",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 API & Webhooks",
+    "created_at": "2025-10-31",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 5\nProduct area: API & Webhooks\n\nComment: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nRequested improvement: Please add 'SSO/SAML support'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "API & Webhooks",
+      "nps": 5,
+      "requested_feature": "SSO/SAML support",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-025",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Sunrise Bank \u2014 Billing",
+    "created_at": "2025-11-01",
+    "text": "Source: In-app NPS survey\nCustomer: Sunrise Bank (Enterprise)\nNPS score: 2\nProduct area: Billing\n\nComment: The billing page double-charged us this month and support took 9 days to reply.\n\nRequested improvement: Please add 'CSV export of raw data'.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "nps": 2,
+      "requested_feature": "CSV export of raw data",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-026",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Peak Outfitters \u2014 Reporting & Export",
+    "created_at": "2025-11-11",
+    "text": "Source: In-app NPS survey\nCustomer: Peak Outfitters (SMB)\nNPS score: 8\nProduct area: Reporting & Export\n\nComment: Scheduled exports saved my team hours every week.\n\nRequested improvement: Please add 'SSO/SAML support'.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "Reporting & Export",
+      "nps": 8,
+      "requested_feature": "SSO/SAML support",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-027",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Integrations",
+    "created_at": "2025-11-14",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 3\nProduct area: Integrations\n\nComment: The Slack integration disconnects every few days and we have to re-auth.\n\nRequested improvement: Please add 'Usage-based billing tiers'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "nps": 3,
+      "requested_feature": "Usage-based billing tiers",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-028",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Acme Robotics \u2014 Dashboards",
+    "created_at": "2025-11-26",
+    "text": "Source: In-app NPS survey\nCustomer: Acme Robotics (Enterprise)\nNPS score: 2\nProduct area: Dashboards\n\nComment: The dashboard takes 12 seconds to load when I have more than 5 widgets. It's unusable for our morning standup.\n\nRequested improvement: Please add 'Slack integration'.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "nps": 2,
+      "requested_feature": "Slack integration",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-029",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Sunrise Bank \u2014 Dashboards",
+    "created_at": "2025-12-05",
+    "text": "Source: In-app NPS survey\nCustomer: Sunrise Bank (Enterprise)\nNPS score: 6\nProduct area: Dashboards\n\nComment: The dashboard takes 11 seconds to load when I have more than 8 widgets. It's unusable for our morning standup.\n\nRequested improvement: Please add 'Dark mode'.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "nps": 6,
+      "requested_feature": "Dark mode",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-030",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Acme Robotics \u2014 Billing",
+    "created_at": "2025-12-06",
+    "text": "Source: In-app NPS survey\nCustomer: Acme Robotics (Enterprise)\nNPS score: 5\nProduct area: Billing\n\nComment: The billing page double-charged us this month and support took 4 days to reply.\n\nRequested improvement: Please add 'Bulk user provisioning (SCIM)'.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "nps": 5,
+      "requested_feature": "Bulk user provisioning (SCIM)",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-031",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Integrations",
+    "created_at": "2025-12-25",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 1\nProduct area: Integrations\n\nComment: The Slack integration disconnects every few days and we have to re-auth.\n\nRequested improvement: Please add 'Bulk user provisioning (SCIM)'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "nps": 1,
+      "requested_feature": "Bulk user provisioning (SCIM)",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-032",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Vantage Analytics \u2014 Integrations",
+    "created_at": "2025-12-29",
+    "text": "Source: In-app NPS survey\nCustomer: Vantage Analytics (Enterprise)\nNPS score: 4\nProduct area: Integrations\n\nComment: The Slack integration disconnects every few days and we have to re-auth.\n\nRequested improvement: Please add 'Real-time cursor presence'.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Integrations",
+      "nps": 4,
+      "requested_feature": "Real-time cursor presence",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-033",
+    "source_type": "customer_feedback",
+    "title": "Feedback from BlueOrbit Media \u2014 Notifications",
+    "created_at": "2026-01-02",
+    "text": "Source: In-app NPS survey\nCustomer: BlueOrbit Media (Mid-Market)\nNPS score: 2\nProduct area: Notifications\n\nComment: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nRequested improvement: Please add 'CSV export of raw data'.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Notifications",
+      "nps": 2,
+      "requested_feature": "CSV export of raw data",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-034",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Northwind Trading \u2014 Mobile App",
+    "created_at": "2026-01-06",
+    "text": "Source: In-app NPS survey\nCustomer: Northwind Trading (Enterprise)\nNPS score: 3\nProduct area: Mobile App\n\nComment: The mobile app crashes on Android 15 whenever I open a shared dashboard.\n\nRequested improvement: Please add 'Global search across workspaces'.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Mobile App",
+      "nps": 3,
+      "requested_feature": "Global search across workspaces",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-035",
+    "source_type": "customer_feedback",
+    "title": "Feedback from BlueOrbit Media \u2014 Billing",
+    "created_at": "2026-01-13",
+    "text": "Source: In-app NPS survey\nCustomer: BlueOrbit Media (Mid-Market)\nNPS score: 4\nProduct area: Billing\n\nComment: The billing page double-charged us this month and support took 11 days to reply.\n\nRequested improvement: Please add 'Webhook retries'.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Billing",
+      "nps": 4,
+      "requested_feature": "Webhook retries",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-036",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Sunrise Bank \u2014 Search",
+    "created_at": "2026-01-21",
+    "text": "Source: In-app NPS survey\nCustomer: Sunrise Bank (Enterprise)\nNPS score: 1\nProduct area: Search\n\nComment: Search only looks in the current workspace. I can never find docs from other teams.\n\nRequested improvement: Please add 'Usage-based billing tiers'.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Search",
+      "nps": 1,
+      "requested_feature": "Usage-based billing tiers",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-037",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Peak Outfitters \u2014 Search",
+    "created_at": "2026-01-26",
+    "text": "Source: In-app NPS survey\nCustomer: Peak Outfitters (SMB)\nNPS score: 5\nProduct area: Search\n\nComment: Search only looks in the current workspace. I can never find docs from other teams.\n\nRequested improvement: Please add 'Webhook retries'.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "Search",
+      "nps": 5,
+      "requested_feature": "Webhook retries",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-038",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Vantage Analytics \u2014 Integrations",
+    "created_at": "2026-01-26",
+    "text": "Source: In-app NPS survey\nCustomer: Vantage Analytics (Enterprise)\nNPS score: 8\nProduct area: Integrations\n\nComment: Love how easy the Zapier integration was to set up.\n\nRequested improvement: Please add 'Global search across workspaces'.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Integrations",
+      "nps": 8,
+      "requested_feature": "Global search across workspaces",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-039",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Vantage Analytics \u2014 Dashboards",
+    "created_at": "2026-01-28",
+    "text": "Source: In-app NPS survey\nCustomer: Vantage Analytics (Enterprise)\nNPS score: 6\nProduct area: Dashboards\n\nComment: The dashboard takes 5 seconds to load when I have more than 10000 widgets. It's unusable for our morning standup.\n\nRequested improvement: Please add 'Webhook retries'.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "nps": 6,
+      "requested_feature": "Webhook retries",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-040",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Acme Robotics \u2014 Billing",
+    "created_at": "2026-01-31",
+    "text": "Source: In-app NPS survey\nCustomer: Acme Robotics (Enterprise)\nNPS score: 5\nProduct area: Billing\n\nComment: The billing page double-charged us this month and support took 4 days to reply.\n\nRequested improvement: Please add 'SSO/SAML support'.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "nps": 5,
+      "requested_feature": "SSO/SAML support",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-041",
+    "source_type": "customer_feedback",
+    "title": "Feedback from BlueOrbit Media \u2014 Search",
+    "created_at": "2026-02-01",
+    "text": "Source: In-app NPS survey\nCustomer: BlueOrbit Media (Mid-Market)\nNPS score: 2\nProduct area: Search\n\nComment: Search only looks in the current workspace. I can never find docs from other teams.\n\nRequested improvement: Please add 'Custom dashboard widgets'.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Search",
+      "nps": 2,
+      "requested_feature": "Custom dashboard widgets",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-042",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Peak Outfitters \u2014 Integrations",
+    "created_at": "2026-02-02",
+    "text": "Source: In-app NPS survey\nCustomer: Peak Outfitters (SMB)\nNPS score: 10\nProduct area: Integrations\n\nComment: Love how easy the Zapier integration was to set up.\n\nRequested improvement: Please add 'Webhook retries'.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "nps": 10,
+      "requested_feature": "Webhook retries",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-043",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Zephyr Logistics \u2014 Dashboards",
+    "created_at": "2026-02-07",
+    "text": "Source: In-app NPS survey\nCustomer: Zephyr Logistics (Mid-Market)\nNPS score: 7\nProduct area: Dashboards\n\nComment: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nRequested improvement: Please add 'Real-time cursor presence'.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "Dashboards",
+      "nps": 7,
+      "requested_feature": "Real-time cursor presence",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-044",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Cobalt Health \u2014 Dashboards",
+    "created_at": "2026-02-10",
+    "text": "Source: In-app NPS survey\nCustomer: Cobalt Health (Enterprise)\nNPS score: 10\nProduct area: Dashboards\n\nComment: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "nps": 10,
+      "requested_feature": "Scheduled report exports",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-045",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Acme Robotics \u2014 Reporting & Export",
+    "created_at": "2026-02-11",
+    "text": "Source: In-app NPS survey\nCustomer: Acme Robotics (Enterprise)\nNPS score: 9\nProduct area: Reporting & Export\n\nComment: Scheduled exports saved my team hours every week.\n\nRequested improvement: Please add 'Usage-based billing tiers'.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Reporting & Export",
+      "nps": 9,
+      "requested_feature": "Usage-based billing tiers",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-046",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Northwind Trading \u2014 Dashboards",
+    "created_at": "2026-02-13",
+    "text": "Source: In-app NPS survey\nCustomer: Northwind Trading (Enterprise)\nNPS score: 2\nProduct area: Dashboards\n\nComment: The dashboard takes 8 seconds to load when I have more than 5 widgets. It's unusable for our morning standup.\n\nRequested improvement: Please add 'Webhook retries'.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "nps": 2,
+      "requested_feature": "Webhook retries",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-047",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Quill Publishing \u2014 User Management & SSO",
+    "created_at": "2026-02-23",
+    "text": "Source: In-app NPS survey\nCustomer: Quill Publishing (SMB)\nNPS score: 5\nProduct area: User Management & SSO\n\nComment: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nRequested improvement: Please add 'Real-time cursor presence'.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "User Management & SSO",
+      "nps": 5,
+      "requested_feature": "Real-time cursor presence",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-048",
+    "source_type": "customer_feedback",
+    "title": "Feedback from BlueOrbit Media \u2014 User Management & SSO",
+    "created_at": "2026-02-27",
+    "text": "Source: In-app NPS survey\nCustomer: BlueOrbit Media (Mid-Market)\nNPS score: 4\nProduct area: User Management & SSO\n\nComment: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nRequested improvement: Please add 'Granular notification controls'.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "User Management & SSO",
+      "nps": 4,
+      "requested_feature": "Granular notification controls",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-049",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Cobalt Health \u2014 Billing",
+    "created_at": "2026-02-28",
+    "text": "Source: In-app NPS survey\nCustomer: Cobalt Health (Enterprise)\nNPS score: 5\nProduct area: Billing\n\nComment: The billing page double-charged us this month and support took 12 days to reply.\n\nRequested improvement: Please add 'Bulk user provisioning (SCIM)'.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "nps": 5,
+      "requested_feature": "Bulk user provisioning (SCIM)",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-050",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Billing",
+    "created_at": "2026-02-28",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 2\nProduct area: Billing\n\nComment: The billing page double-charged us this month and support took 7 days to reply.\n\nRequested improvement: Please add 'Bulk user provisioning (SCIM)'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Billing",
+      "nps": 2,
+      "requested_feature": "Bulk user provisioning (SCIM)",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-051",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Sunrise Bank \u2014 User Management & SSO",
+    "created_at": "2026-03-05",
+    "text": "Source: In-app NPS survey\nCustomer: Sunrise Bank (Enterprise)\nNPS score: 2\nProduct area: User Management & SSO\n\nComment: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nRequested improvement: Please add 'Real-time cursor presence'.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "User Management & SSO",
+      "nps": 2,
+      "requested_feature": "Real-time cursor presence",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-052",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Quill Publishing \u2014 Integrations",
+    "created_at": "2026-03-07",
+    "text": "Source: In-app NPS survey\nCustomer: Quill Publishing (SMB)\nNPS score: 10\nProduct area: Integrations\n\nComment: Love how easy the Zapier integration was to set up.\n\nRequested improvement: Please add 'Dark mode'.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "nps": 10,
+      "requested_feature": "Dark mode",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-053",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Vantage Analytics \u2014 Notifications",
+    "created_at": "2026-03-10",
+    "text": "Source: In-app NPS survey\nCustomer: Vantage Analytics (Enterprise)\nNPS score: 4\nProduct area: Notifications\n\nComment: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nRequested improvement: Please add 'Webhook retries'.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Notifications",
+      "nps": 4,
+      "requested_feature": "Webhook retries",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-054",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Integrations",
+    "created_at": "2026-03-13",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 9\nProduct area: Integrations\n\nComment: Love how easy the Zapier integration was to set up.\n\nRequested improvement: Please add 'Granular notification controls'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "nps": 9,
+      "requested_feature": "Granular notification controls",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-055",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Northwind Trading \u2014 Real-time Collaboration",
+    "created_at": "2026-03-24",
+    "text": "Source: In-app NPS survey\nCustomer: Northwind Trading (Enterprise)\nNPS score: 6\nProduct area: Real-time Collaboration\n\nComment: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nRequested improvement: Please add 'Bulk user provisioning (SCIM)'.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Real-time Collaboration",
+      "nps": 6,
+      "requested_feature": "Bulk user provisioning (SCIM)",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-056",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Reporting & Export",
+    "created_at": "2026-03-25",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 8\nProduct area: Reporting & Export\n\nComment: Scheduled exports saved my team hours every week.\n\nRequested improvement: Please add 'Dark mode'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Reporting & Export",
+      "nps": 8,
+      "requested_feature": "Dark mode",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-057",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Peak Outfitters \u2014 Mobile App",
+    "created_at": "2026-03-25",
+    "text": "Source: In-app NPS survey\nCustomer: Peak Outfitters (SMB)\nNPS score: 5\nProduct area: Mobile App\n\nComment: The mobile app crashes on Android 13 whenever I open a shared dashboard.\n\nRequested improvement: Please add 'Global search across workspaces'.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "Mobile App",
+      "nps": 5,
+      "requested_feature": "Global search across workspaces",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-058",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Northwind Trading \u2014 Mobile App",
+    "created_at": "2026-03-29",
+    "text": "Source: In-app NPS survey\nCustomer: Northwind Trading (Enterprise)\nNPS score: 5\nProduct area: Mobile App\n\nComment: The mobile app crashes on Android 15 whenever I open a shared dashboard.\n\nRequested improvement: Please add 'Webhook retries'.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Mobile App",
+      "nps": 5,
+      "requested_feature": "Webhook retries",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-059",
+    "source_type": "customer_feedback",
+    "title": "Feedback from BlueOrbit Media \u2014 Notifications",
+    "created_at": "2026-04-01",
+    "text": "Source: In-app NPS survey\nCustomer: BlueOrbit Media (Mid-Market)\nNPS score: 1\nProduct area: Notifications\n\nComment: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nRequested improvement: Please add 'Granular notification controls'.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Notifications",
+      "nps": 1,
+      "requested_feature": "Granular notification controls",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-060",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Cobalt Health \u2014 User Management & SSO",
+    "created_at": "2026-04-28",
+    "text": "Source: In-app NPS survey\nCustomer: Cobalt Health (Enterprise)\nNPS score: 2\nProduct area: User Management & SSO\n\nComment: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nRequested improvement: Please add 'CSV export of raw data'.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "User Management & SSO",
+      "nps": 2,
+      "requested_feature": "CSV export of raw data",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-061",
+    "source_type": "customer_feedback",
+    "title": "Feedback from BlueOrbit Media \u2014 Mobile App",
+    "created_at": "2026-04-28",
+    "text": "Source: In-app NPS survey\nCustomer: BlueOrbit Media (Mid-Market)\nNPS score: 6\nProduct area: Mobile App\n\nComment: The mobile app crashes on Android 15 whenever I open a shared dashboard.\n\nRequested improvement: Please add 'Webhook retries'.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Mobile App",
+      "nps": 6,
+      "requested_feature": "Webhook retries",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-062",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Acme Robotics \u2014 Billing",
+    "created_at": "2026-05-01",
+    "text": "Source: In-app NPS survey\nCustomer: Acme Robotics (Enterprise)\nNPS score: 5\nProduct area: Billing\n\nComment: The billing page double-charged us this month and support took 4 days to reply.\n\nRequested improvement: Please add 'Global search across workspaces'.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "nps": 5,
+      "requested_feature": "Global search across workspaces",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-063",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Quill Publishing \u2014 Reporting & Export",
+    "created_at": "2026-05-01",
+    "text": "Source: In-app NPS survey\nCustomer: Quill Publishing (SMB)\nNPS score: 7\nProduct area: Reporting & Export\n\nComment: Scheduled exports saved my team hours every week.\n\nRequested improvement: Please add 'Granular notification controls'.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Reporting & Export",
+      "nps": 7,
+      "requested_feature": "Granular notification controls",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-064",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Integrations",
+    "created_at": "2026-05-11",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 5\nProduct area: Integrations\n\nComment: The Slack integration disconnects every few days and we have to re-auth.\n\nRequested improvement: Please add 'Global search across workspaces'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "nps": 5,
+      "requested_feature": "Global search across workspaces",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-065",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Ferns & Co \u2014 Real-time Collaboration",
+    "created_at": "2026-05-15",
+    "text": "Source: In-app NPS survey\nCustomer: Ferns & Co (SMB)\nNPS score: 5\nProduct area: Real-time Collaboration\n\nComment: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nRequested improvement: Please add 'Scheduled report exports'.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Real-time Collaboration",
+      "nps": 5,
+      "requested_feature": "Scheduled report exports",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-066",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Cobalt Health \u2014 Billing",
+    "created_at": "2026-05-19",
+    "text": "Source: In-app NPS survey\nCustomer: Cobalt Health (Enterprise)\nNPS score: 4\nProduct area: Billing\n\nComment: The billing page double-charged us this month and support took 3 days to reply.\n\nRequested improvement: Please add 'Webhook retries'.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "nps": 4,
+      "requested_feature": "Webhook retries",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-067",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Cobalt Health \u2014 Dashboards",
+    "created_at": "2026-06-04",
+    "text": "Source: In-app NPS survey\nCustomer: Cobalt Health (Enterprise)\nNPS score: 9\nProduct area: Dashboards\n\nComment: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nRequested improvement: Please add 'Usage-based billing tiers'.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "nps": 9,
+      "requested_feature": "Usage-based billing tiers",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "feedback-068",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Quill Publishing \u2014 Notifications",
+    "created_at": "2026-06-08",
+    "text": "Source: In-app NPS survey\nCustomer: Quill Publishing (SMB)\nNPS score: 3\nProduct area: Notifications\n\nComment: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nRequested improvement: Please add 'Custom dashboard widgets'.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Notifications",
+      "nps": 3,
+      "requested_feature": "Custom dashboard widgets",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-069",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Acme Robotics \u2014 Notifications",
+    "created_at": "2026-06-23",
+    "text": "Source: In-app NPS survey\nCustomer: Acme Robotics (Enterprise)\nNPS score: 3\nProduct area: Notifications\n\nComment: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nRequested improvement: Please add 'Granular notification controls'.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Notifications",
+      "nps": 3,
+      "requested_feature": "Granular notification controls",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "feedback-070",
+    "source_type": "customer_feedback",
+    "title": "Feedback from Zephyr Logistics \u2014 Dashboards",
+    "created_at": "2026-06-24",
+    "text": "Source: In-app NPS survey\nCustomer: Zephyr Logistics (Mid-Market)\nNPS score: 8\nProduct area: Dashboards\n\nComment: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nRequested improvement: Please add 'Usage-based billing tiers'.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "Dashboards",
+      "nps": 8,
+      "requested_feature": "Usage-based billing tiers",
+      "sentiment": "positive"
+    }
+  }
+]

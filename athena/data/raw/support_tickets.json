@@ -1,0 +1,1352 @@
+[
+  {
+    "doc_id": "ticket-001",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Billing issue \u2014 BlueOrbit Media",
+    "created_at": "2025-07-06",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Billing\nPriority: medium\nStatus: resolved\n\nDescription: The billing page double-charged us this month and support took 9 days to reply.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Billing",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-002",
+    "source_type": "support_ticket",
+    "title": "[LOW] Dashboards issue \u2014 Zephyr Logistics",
+    "created_at": "2025-07-07",
+    "text": "Customer: Zephyr Logistics (Mid-Market)\nProduct area: Dashboards\nPriority: low\nStatus: resolved\n\nDescription: The dashboard takes 6 seconds to load when I have more than 5 widgets. It's unusable for our morning standup.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "Dashboards",
+      "status": "resolved",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-003",
+    "source_type": "support_ticket",
+    "title": "[HIGH] API & Webhooks issue \u2014 Peak Outfitters",
+    "created_at": "2025-07-07",
+    "text": "Customer: Peak Outfitters (SMB)\nProduct area: API & Webhooks\nPriority: high\nStatus: in_progress\n\nDescription: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "API & Webhooks",
+      "status": "in_progress",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-004",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Mobile App issue \u2014 BlueOrbit Media",
+    "created_at": "2025-07-09",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Mobile App\nPriority: medium\nStatus: resolved\n\nDescription: The mobile app crashes on Android 15 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Mobile App",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-005",
+    "source_type": "support_ticket",
+    "title": "[URGENT] Search issue \u2014 Peak Outfitters",
+    "created_at": "2025-07-17",
+    "text": "Customer: Peak Outfitters (SMB)\nProduct area: Search\nPriority: urgent\nStatus: open\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "Search",
+      "status": "open",
+      "priority": "urgent",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-006",
+    "source_type": "support_ticket",
+    "title": "[LOW] Billing issue \u2014 Sunrise Bank",
+    "created_at": "2025-07-20",
+    "text": "Customer: Sunrise Bank (Enterprise)\nProduct area: Billing\nPriority: low\nStatus: open\n\nDescription: The billing page double-charged us this month and support took 4 days to reply.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "status": "open",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-007",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Real-time Collaboration issue \u2014 Quill Publishing",
+    "created_at": "2025-07-23",
+    "text": "Customer: Quill Publishing (SMB)\nProduct area: Real-time Collaboration\nPriority: medium\nStatus: resolved\n\nDescription: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Real-time Collaboration",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-008",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Integrations issue \u2014 Ferns & Co",
+    "created_at": "2025-07-28",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: Integrations\nPriority: high\nStatus: in_progress\n\nDescription: The Slack integration disconnects every few days and we have to re-auth.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "status": "in_progress",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-009",
+    "source_type": "support_ticket",
+    "title": "[URGENT] Notifications issue \u2014 Zephyr Logistics",
+    "created_at": "2025-08-03",
+    "text": "Customer: Zephyr Logistics (Mid-Market)\nProduct area: Notifications\nPriority: urgent\nStatus: resolved\n\nDescription: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "Notifications",
+      "status": "resolved",
+      "priority": "urgent",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-010",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Integrations issue \u2014 Ferns & Co",
+    "created_at": "2025-08-04",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: Integrations\nPriority: high\nStatus: open\n\nDescription: The Slack integration disconnects every few days and we have to re-auth.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-011",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Reporting & Export issue \u2014 Peak Outfitters",
+    "created_at": "2025-08-08",
+    "text": "Customer: Peak Outfitters (SMB)\nProduct area: Reporting & Export\nPriority: high\nStatus: resolved\n\nDescription: Exporting a report over 10000 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "Reporting & Export",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-012",
+    "source_type": "support_ticket",
+    "title": "[URGENT] Dashboards issue \u2014 Sunrise Bank",
+    "created_at": "2025-08-10",
+    "text": "Customer: Sunrise Bank (Enterprise)\nProduct area: Dashboards\nPriority: urgent\nStatus: open\n\nDescription: The dashboard takes 12 seconds to load when I have more than 10000 widgets. It's unusable for our morning standup.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "status": "open",
+      "priority": "urgent",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-013",
+    "source_type": "support_ticket",
+    "title": "[LOW] Reporting & Export issue \u2014 Ferns & Co",
+    "created_at": "2025-08-10",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: Reporting & Export\nPriority: low\nStatus: in_progress\n\nDescription: Exporting a report over 8 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Reporting & Export",
+      "status": "in_progress",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-014",
+    "source_type": "support_ticket",
+    "title": "[URGENT] Notifications issue \u2014 Vantage Analytics",
+    "created_at": "2025-08-14",
+    "text": "Customer: Vantage Analytics (Enterprise)\nProduct area: Notifications\nPriority: urgent\nStatus: resolved\n\nDescription: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Notifications",
+      "status": "resolved",
+      "priority": "urgent",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-015",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Mobile App issue \u2014 BlueOrbit Media",
+    "created_at": "2025-08-19",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Mobile App\nPriority: high\nStatus: in_progress\n\nDescription: The mobile app crashes on Android 13 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Mobile App",
+      "status": "in_progress",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-016",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Mobile App issue \u2014 Cobalt Health",
+    "created_at": "2025-08-24",
+    "text": "Customer: Cobalt Health (Enterprise)\nProduct area: Mobile App\nPriority: medium\nStatus: in_progress\n\nDescription: The mobile app crashes on Android 14 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Mobile App",
+      "status": "in_progress",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-017",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Reporting & Export issue \u2014 Cobalt Health",
+    "created_at": "2025-08-26",
+    "text": "Customer: Cobalt Health (Enterprise)\nProduct area: Reporting & Export\nPriority: medium\nStatus: resolved\n\nDescription: Exporting a report over 10000 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Reporting & Export",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-018",
+    "source_type": "support_ticket",
+    "title": "[LOW] Dashboards issue \u2014 Cobalt Health",
+    "created_at": "2025-08-27",
+    "text": "Customer: Cobalt Health (Enterprise)\nProduct area: Dashboards\nPriority: low\nStatus: open\n\nDescription: The dashboard takes 4 seconds to load when I have more than 5 widgets. It's unusable for our morning standup.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "status": "open",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-019",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Notifications issue \u2014 Zephyr Logistics",
+    "created_at": "2025-09-02",
+    "text": "Customer: Zephyr Logistics (Mid-Market)\nProduct area: Notifications\nPriority: medium\nStatus: resolved\n\nDescription: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "Notifications",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-020",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Real-time Collaboration issue \u2014 BlueOrbit Media",
+    "created_at": "2025-09-03",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Real-time Collaboration\nPriority: high\nStatus: resolved\n\nDescription: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Real-time Collaboration",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-021",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Notifications issue \u2014 Cobalt Health",
+    "created_at": "2025-09-09",
+    "text": "Customer: Cobalt Health (Enterprise)\nProduct area: Notifications\nPriority: medium\nStatus: resolved\n\nDescription: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Notifications",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-022",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Dashboards issue \u2014 Northwind Trading",
+    "created_at": "2025-09-17",
+    "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Dashboards\nPriority: high\nStatus: resolved\n\nDescription: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "ticket-023",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Reporting & Export issue \u2014 Acme Robotics",
+    "created_at": "2025-09-22",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: Reporting & Export\nPriority: medium\nStatus: resolved\n\nDescription: Exporting a report over 8 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Reporting & Export",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-024",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Billing issue \u2014 Ferns & Co",
+    "created_at": "2025-09-25",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: Billing\nPriority: high\nStatus: in_progress\n\nDescription: The billing page double-charged us this month and support took 6 days to reply.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Billing",
+      "status": "in_progress",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-025",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Dashboards issue \u2014 Acme Robotics",
+    "created_at": "2025-09-25",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: Dashboards\nPriority: high\nStatus: in_progress\n\nDescription: The dashboard takes 11 seconds to load when I have more than 5 widgets. It's unusable for our morning standup.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "status": "in_progress",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-026",
+    "source_type": "support_ticket",
+    "title": "[URGENT] Search issue \u2014 BlueOrbit Media",
+    "created_at": "2025-09-30",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Search\nPriority: urgent\nStatus: in_progress\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Search",
+      "status": "in_progress",
+      "priority": "urgent",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-027",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Search issue \u2014 BlueOrbit Media",
+    "created_at": "2025-10-01",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Search\nPriority: high\nStatus: in_progress\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Search",
+      "status": "in_progress",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-028",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Search issue \u2014 Ferns & Co",
+    "created_at": "2025-10-16",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: Search\nPriority: medium\nStatus: open\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Search",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-029",
+    "source_type": "support_ticket",
+    "title": "[LOW] Real-time Collaboration issue \u2014 Northwind Trading",
+    "created_at": "2025-11-08",
+    "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Real-time Collaboration\nPriority: low\nStatus: open\n\nDescription: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Real-time Collaboration",
+      "status": "open",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-030",
+    "source_type": "support_ticket",
+    "title": "[LOW] Integrations issue \u2014 Vantage Analytics",
+    "created_at": "2025-11-11",
+    "text": "Customer: Vantage Analytics (Enterprise)\nProduct area: Integrations\nPriority: low\nStatus: in_progress\n\nDescription: The Slack integration disconnects every few days and we have to re-auth.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Integrations",
+      "status": "in_progress",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-031",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Notifications issue \u2014 BlueOrbit Media",
+    "created_at": "2025-11-14",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Notifications\nPriority: medium\nStatus: in_progress\n\nDescription: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Notifications",
+      "status": "in_progress",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-032",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Reporting & Export issue \u2014 Peak Outfitters",
+    "created_at": "2025-11-27",
+    "text": "Customer: Peak Outfitters (SMB)\nProduct area: Reporting & Export\nPriority: high\nStatus: open\n\nDescription: Exporting a report over 5 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "Reporting & Export",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-033",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Integrations issue \u2014 Peak Outfitters",
+    "created_at": "2025-11-27",
+    "text": "Customer: Peak Outfitters (SMB)\nProduct area: Integrations\nPriority: medium\nStatus: resolved\n\nDescription: The Slack integration disconnects every few days and we have to re-auth.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-034",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Search issue \u2014 Ferns & Co",
+    "created_at": "2025-11-29",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: Search\nPriority: high\nStatus: open\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Search",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-035",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Dashboards issue \u2014 Acme Robotics",
+    "created_at": "2025-12-19",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: Dashboards\nPriority: medium\nStatus: resolved\n\nDescription: The dashboard takes 10 seconds to load when I have more than 5 widgets. It's unusable for our morning standup.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-036",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] API & Webhooks issue \u2014 BlueOrbit Media",
+    "created_at": "2025-12-19",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: API & Webhooks\nPriority: medium\nStatus: open\n\nDescription: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "API & Webhooks",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-037",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Mobile App issue \u2014 Sunrise Bank",
+    "created_at": "2025-12-20",
+    "text": "Customer: Sunrise Bank (Enterprise)\nProduct area: Mobile App\nPriority: medium\nStatus: in_progress\n\nDescription: The mobile app crashes on Android 15 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Mobile App",
+      "status": "in_progress",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-038",
+    "source_type": "support_ticket",
+    "title": "[LOW] User Management & SSO issue \u2014 Acme Robotics",
+    "created_at": "2025-12-24",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: User Management & SSO\nPriority: low\nStatus: resolved\n\nDescription: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "User Management & SSO",
+      "status": "resolved",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-039",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Real-time Collaboration issue \u2014 Ferns & Co",
+    "created_at": "2025-12-27",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: Real-time Collaboration\nPriority: high\nStatus: resolved\n\nDescription: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Real-time Collaboration",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-040",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Billing issue \u2014 Sunrise Bank",
+    "created_at": "2025-12-28",
+    "text": "Customer: Sunrise Bank (Enterprise)\nProduct area: Billing\nPriority: high\nStatus: resolved\n\nDescription: The billing page double-charged us this month and support took 7 days to reply.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-041",
+    "source_type": "support_ticket",
+    "title": "[LOW] Dashboards issue \u2014 Northwind Trading",
+    "created_at": "2025-12-30",
+    "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Dashboards\nPriority: low\nStatus: in_progress\n\nDescription: The dashboard takes 8 seconds to load when I have more than 8 widgets. It's unusable for our morning standup.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "status": "in_progress",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-042",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Integrations issue \u2014 Vantage Analytics",
+    "created_at": "2026-01-01",
+    "text": "Customer: Vantage Analytics (Enterprise)\nProduct area: Integrations\nPriority: high\nStatus: open\n\nDescription: The Slack integration disconnects every few days and we have to re-auth.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Integrations",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-043",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Integrations issue \u2014 BlueOrbit Media",
+    "created_at": "2026-01-06",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Integrations\nPriority: medium\nStatus: resolved\n\nDescription: The Slack integration disconnects every few days and we have to re-auth.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Integrations",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-044",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Mobile App issue \u2014 Northwind Trading",
+    "created_at": "2026-01-08",
+    "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Mobile App\nPriority: medium\nStatus: open\n\nDescription: The mobile app crashes on Android 14 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Mobile App",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-045",
+    "source_type": "support_ticket",
+    "title": "[URGENT] API & Webhooks issue \u2014 Acme Robotics",
+    "created_at": "2026-01-10",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: API & Webhooks\nPriority: urgent\nStatus: resolved\n\nDescription: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "API & Webhooks",
+      "status": "resolved",
+      "priority": "urgent",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-046",
+    "source_type": "support_ticket",
+    "title": "[URGENT] User Management & SSO issue \u2014 Cobalt Health",
+    "created_at": "2026-02-01",
+    "text": "Customer: Cobalt Health (Enterprise)\nProduct area: User Management & SSO\nPriority: urgent\nStatus: open\n\nDescription: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "User Management & SSO",
+      "status": "open",
+      "priority": "urgent",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-047",
+    "source_type": "support_ticket",
+    "title": "[LOW] Dashboards issue \u2014 Quill Publishing",
+    "created_at": "2026-02-03",
+    "text": "Customer: Quill Publishing (SMB)\nProduct area: Dashboards\nPriority: low\nStatus: resolved\n\nDescription: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Dashboards",
+      "status": "resolved",
+      "priority": "low",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "ticket-048",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Billing issue \u2014 Northwind Trading",
+    "created_at": "2026-02-09",
+    "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Billing\nPriority: high\nStatus: open\n\nDescription: The billing page double-charged us this month and support took 6 days to reply.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-049",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Reporting & Export issue \u2014 Cobalt Health",
+    "created_at": "2026-02-09",
+    "text": "Customer: Cobalt Health (Enterprise)\nProduct area: Reporting & Export\nPriority: high\nStatus: open\n\nDescription: Exporting a report over 8 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Reporting & Export",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-050",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] API & Webhooks issue \u2014 Ferns & Co",
+    "created_at": "2026-02-09",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: API & Webhooks\nPriority: medium\nStatus: in_progress\n\nDescription: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "API & Webhooks",
+      "status": "in_progress",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-051",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Notifications issue \u2014 Northwind Trading",
+    "created_at": "2026-02-11",
+    "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Notifications\nPriority: medium\nStatus: in_progress\n\nDescription: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Notifications",
+      "status": "in_progress",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-052",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Real-time Collaboration issue \u2014 Acme Robotics",
+    "created_at": "2026-02-15",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: Real-time Collaboration\nPriority: medium\nStatus: resolved\n\nDescription: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Real-time Collaboration",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-053",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Notifications issue \u2014 Sunrise Bank",
+    "created_at": "2026-02-16",
+    "text": "Customer: Sunrise Bank (Enterprise)\nProduct area: Notifications\nPriority: medium\nStatus: open\n\nDescription: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Notifications",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-054",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Integrations issue \u2014 Sunrise Bank",
+    "created_at": "2026-02-26",
+    "text": "Customer: Sunrise Bank (Enterprise)\nProduct area: Integrations\nPriority: high\nStatus: open\n\nDescription: The Slack integration disconnects every few days and we have to re-auth.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Integrations",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-055",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Real-time Collaboration issue \u2014 Zephyr Logistics",
+    "created_at": "2026-02-26",
+    "text": "Customer: Zephyr Logistics (Mid-Market)\nProduct area: Real-time Collaboration\nPriority: medium\nStatus: in_progress\n\nDescription: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "Real-time Collaboration",
+      "status": "in_progress",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-056",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] API & Webhooks issue \u2014 Quill Publishing",
+    "created_at": "2026-03-04",
+    "text": "Customer: Quill Publishing (SMB)\nProduct area: API & Webhooks\nPriority: medium\nStatus: open\n\nDescription: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "API & Webhooks",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-057",
+    "source_type": "support_ticket",
+    "title": "[LOW] Dashboards issue \u2014 Quill Publishing",
+    "created_at": "2026-03-04",
+    "text": "Customer: Quill Publishing (SMB)\nProduct area: Dashboards\nPriority: low\nStatus: resolved\n\nDescription: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Dashboards",
+      "status": "resolved",
+      "priority": "low",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "ticket-058",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Reporting & Export issue \u2014 Ferns & Co",
+    "created_at": "2026-03-07",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: Reporting & Export\nPriority: high\nStatus: resolved\n\nDescription: Exporting a report over 10000 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Reporting & Export",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-059",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Billing issue \u2014 Sunrise Bank",
+    "created_at": "2026-03-09",
+    "text": "Customer: Sunrise Bank (Enterprise)\nProduct area: Billing\nPriority: high\nStatus: resolved\n\nDescription: The billing page double-charged us this month and support took 5 days to reply.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-060",
+    "source_type": "support_ticket",
+    "title": "[LOW] Notifications issue \u2014 Zephyr Logistics",
+    "created_at": "2026-03-11",
+    "text": "Customer: Zephyr Logistics (Mid-Market)\nProduct area: Notifications\nPriority: low\nStatus: in_progress\n\nDescription: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "Notifications",
+      "status": "in_progress",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-061",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Reporting & Export issue \u2014 Northwind Trading",
+    "created_at": "2026-03-12",
+    "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Reporting & Export\nPriority: high\nStatus: resolved\n\nDescription: Exporting a report over 5 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Reporting & Export",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-062",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Search issue \u2014 Cobalt Health",
+    "created_at": "2026-03-13",
+    "text": "Customer: Cobalt Health (Enterprise)\nProduct area: Search\nPriority: high\nStatus: open\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Search",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-063",
+    "source_type": "support_ticket",
+    "title": "[LOW] Search issue \u2014 Acme Robotics",
+    "created_at": "2026-03-16",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: Search\nPriority: low\nStatus: resolved\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Search",
+      "status": "resolved",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-064",
+    "source_type": "support_ticket",
+    "title": "[URGENT] Notifications issue \u2014 Cobalt Health",
+    "created_at": "2026-03-22",
+    "text": "Customer: Cobalt Health (Enterprise)\nProduct area: Notifications\nPriority: urgent\nStatus: resolved\n\nDescription: I'm drowning in email notifications. There is no way to mute a single project, only everything.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Notifications",
+      "status": "resolved",
+      "priority": "urgent",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-065",
+    "source_type": "support_ticket",
+    "title": "[LOW] API & Webhooks issue \u2014 Peak Outfitters",
+    "created_at": "2026-03-25",
+    "text": "Customer: Peak Outfitters (SMB)\nProduct area: API & Webhooks\nPriority: low\nStatus: resolved\n\nDescription: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "API & Webhooks",
+      "status": "resolved",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-066",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Billing issue \u2014 Vantage Analytics",
+    "created_at": "2026-04-05",
+    "text": "Customer: Vantage Analytics (Enterprise)\nProduct area: Billing\nPriority: high\nStatus: open\n\nDescription: The billing page double-charged us this month and support took 7 days to reply.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-067",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Dashboards issue \u2014 Vantage Analytics",
+    "created_at": "2026-04-09",
+    "text": "Customer: Vantage Analytics (Enterprise)\nProduct area: Dashboards\nPriority: medium\nStatus: open\n\nDescription: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "ticket-068",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] API & Webhooks issue \u2014 Ferns & Co",
+    "created_at": "2026-04-11",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: API & Webhooks\nPriority: medium\nStatus: open\n\nDescription: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "API & Webhooks",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-069",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Reporting & Export issue \u2014 BlueOrbit Media",
+    "created_at": "2026-04-13",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Reporting & Export\nPriority: medium\nStatus: open\n\nDescription: Exporting a report over 50000 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Reporting & Export",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-070",
+    "source_type": "support_ticket",
+    "title": "[LOW] Reporting & Export issue \u2014 Northwind Trading",
+    "created_at": "2026-04-21",
+    "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Reporting & Export\nPriority: low\nStatus: in_progress\n\nDescription: Exporting a report over 50000 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Reporting & Export",
+      "status": "in_progress",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-071",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Search issue \u2014 Peak Outfitters",
+    "created_at": "2026-04-29",
+    "text": "Customer: Peak Outfitters (SMB)\nProduct area: Search\nPriority: medium\nStatus: open\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Peak Outfitters",
+      "tier": "SMB",
+      "product_area": "Search",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-072",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Integrations issue \u2014 Quill Publishing",
+    "created_at": "2026-05-05",
+    "text": "Customer: Quill Publishing (SMB)\nProduct area: Integrations\nPriority: medium\nStatus: open\n\nDescription: The Slack integration disconnects every few days and we have to re-auth.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-073",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Search issue \u2014 Northwind Trading",
+    "created_at": "2026-05-10",
+    "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Search\nPriority: medium\nStatus: open\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Search",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-074",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Real-time Collaboration issue \u2014 BlueOrbit Media",
+    "created_at": "2026-05-10",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Real-time Collaboration\nPriority: high\nStatus: resolved\n\nDescription: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Real-time Collaboration",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-075",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Dashboards issue \u2014 Acme Robotics",
+    "created_at": "2026-05-11",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: Dashboards\nPriority: medium\nStatus: open\n\nDescription: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "ticket-076",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Reporting & Export issue \u2014 Zephyr Logistics",
+    "created_at": "2026-05-13",
+    "text": "Customer: Zephyr Logistics (Mid-Market)\nProduct area: Reporting & Export\nPriority: medium\nStatus: resolved\n\nDescription: Exporting a report over 10000 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "Reporting & Export",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-077",
+    "source_type": "support_ticket",
+    "title": "[LOW] Mobile App issue \u2014 Quill Publishing",
+    "created_at": "2026-05-15",
+    "text": "Customer: Quill Publishing (SMB)\nProduct area: Mobile App\nPriority: low\nStatus: resolved\n\nDescription: The mobile app crashes on Android 13 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Mobile App",
+      "status": "resolved",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-078",
+    "source_type": "support_ticket",
+    "title": "[LOW] Reporting & Export issue \u2014 Zephyr Logistics",
+    "created_at": "2026-05-15",
+    "text": "Customer: Zephyr Logistics (Mid-Market)\nProduct area: Reporting & Export\nPriority: low\nStatus: in_progress\n\nDescription: Exporting a report over 5 rows times out and I lose all my work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "Reporting & Export",
+      "status": "in_progress",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-079",
+    "source_type": "support_ticket",
+    "title": "[LOW] Real-time Collaboration issue \u2014 Northwind Trading",
+    "created_at": "2026-05-18",
+    "text": "Customer: Northwind Trading (Enterprise)\nProduct area: Real-time Collaboration\nPriority: low\nStatus: resolved\n\nDescription: When two people edit the same board, changes overwrite each other. We lost an hour of work.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Real-time Collaboration",
+      "status": "resolved",
+      "priority": "low",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-080",
+    "source_type": "support_ticket",
+    "title": "[URGENT] Billing issue \u2014 Cobalt Health",
+    "created_at": "2026-05-22",
+    "text": "Customer: Cobalt Health (Enterprise)\nProduct area: Billing\nPriority: urgent\nStatus: resolved\n\nDescription: The billing page double-charged us this month and support took 7 days to reply.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "status": "resolved",
+      "priority": "urgent",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-081",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] User Management & SSO issue \u2014 Acme Robotics",
+    "created_at": "2026-05-22",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: User Management & SSO\nPriority: medium\nStatus: open\n\nDescription: We cannot roll out to the whole company because there is no SAML SSO. IT is blocking us.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "User Management & SSO",
+      "status": "open",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-082",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Search issue \u2014 Quill Publishing",
+    "created_at": "2026-05-26",
+    "text": "Customer: Quill Publishing (SMB)\nProduct area: Search\nPriority: high\nStatus: resolved\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Search",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-083",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Mobile App issue \u2014 Acme Robotics",
+    "created_at": "2026-05-27",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: Mobile App\nPriority: medium\nStatus: resolved\n\nDescription: The mobile app crashes on Android 15 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Mobile App",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-084",
+    "source_type": "support_ticket",
+    "title": "[LOW] Dashboards issue \u2014 Quill Publishing",
+    "created_at": "2026-06-08",
+    "text": "Customer: Quill Publishing (SMB)\nProduct area: Dashboards\nPriority: low\nStatus: resolved\n\nDescription: The new custom widgets are fantastic \u2014 exactly what our analysts needed.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Dashboards",
+      "status": "resolved",
+      "priority": "low",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "doc_id": "ticket-085",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Billing issue \u2014 Quill Publishing",
+    "created_at": "2026-06-09",
+    "text": "Customer: Quill Publishing (SMB)\nProduct area: Billing\nPriority: high\nStatus: resolved\n\nDescription: The billing page double-charged us this month and support took 4 days to reply.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Billing",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-086",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Search issue \u2014 BlueOrbit Media",
+    "created_at": "2026-06-15",
+    "text": "Customer: BlueOrbit Media (Mid-Market)\nProduct area: Search\nPriority: medium\nStatus: in_progress\n\nDescription: Search only looks in the current workspace. I can never find docs from other teams.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Search",
+      "status": "in_progress",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-087",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Billing issue \u2014 Vantage Analytics",
+    "created_at": "2026-06-16",
+    "text": "Customer: Vantage Analytics (Enterprise)\nProduct area: Billing\nPriority: high\nStatus: in_progress\n\nDescription: The billing page double-charged us this month and support took 9 days to reply.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "status": "in_progress",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-088",
+    "source_type": "support_ticket",
+    "title": "[HIGH] Mobile App issue \u2014 Acme Robotics",
+    "created_at": "2026-06-18",
+    "text": "Customer: Acme Robotics (Enterprise)\nProduct area: Mobile App\nPriority: high\nStatus: resolved\n\nDescription: The mobile app crashes on Android 14 whenever I open a shared dashboard.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Mobile App",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-089",
+    "source_type": "support_ticket",
+    "title": "[MEDIUM] Dashboards issue \u2014 Zephyr Logistics",
+    "created_at": "2026-06-19",
+    "text": "Customer: Zephyr Logistics (Mid-Market)\nProduct area: Dashboards\nPriority: medium\nStatus: resolved\n\nDescription: The dashboard takes 10 seconds to load when I have more than 10000 widgets. It's unusable for our morning standup.\n\nSupport notes: Reproduced on our side. Added to backlog.",
+    "metadata": {
+      "customer": "Zephyr Logistics",
+      "tier": "Mid-Market",
+      "product_area": "Dashboards",
+      "status": "resolved",
+      "priority": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "doc_id": "ticket-090",
+    "source_type": "support_ticket",
+    "title": "[URGENT] API & Webhooks issue \u2014 Ferns & Co",
+    "created_at": "2026-06-28",
+    "text": "Customer: Ferns & Co (SMB)\nProduct area: API & Webhooks\nPriority: urgent\nStatus: open\n\nDescription: Our webhooks silently fail and there are no retries, so we miss events constantly.\n\nSupport notes: Reproduced on our side. Escalated to engineering.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "API & Webhooks",
+      "status": "open",
+      "priority": "urgent",
+      "sentiment": "negative"
+    }
+  }
+]

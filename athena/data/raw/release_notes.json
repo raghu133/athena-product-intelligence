@@ -1,0 +1,122 @@
+[
+  {
+    "doc_id": "release-001",
+    "source_type": "release_notes",
+    "title": "Release v1.0 \u2014 2025-09-04",
+    "created_at": "2025-09-04",
+    "text": "# Flowdesk Release v1.0 (2025-09-04)\n\n## New\n- Shipped **SSO/SAML support** in User Management & SSO. This directly addresses top customer requests.\n## Fixed\n- Resolved User Management & SSO performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows User Management & SSO support tickets down after this release.",
+    "metadata": {
+      "feature": "SSO/SAML support",
+      "product_area": "User Management & SSO",
+      "version": "v1.0"
+    }
+  },
+  {
+    "doc_id": "release-002",
+    "source_type": "release_notes",
+    "title": "Release v2.0 \u2014 2025-10-04",
+    "created_at": "2025-10-04",
+    "text": "# Flowdesk Release v2.0 (2025-10-04)\n\n## New\n- Shipped **Slack integration** in Integrations. This directly addresses top customer requests.\n## Fixed\n- Resolved Integrations performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows Integrations support tickets down after this release.",
+    "metadata": {
+      "feature": "Slack integration",
+      "product_area": "Integrations",
+      "version": "v2.0"
+    }
+  },
+  {
+    "doc_id": "release-003",
+    "source_type": "release_notes",
+    "title": "Release v3.0 \u2014 2025-11-03",
+    "created_at": "2025-11-03",
+    "text": "# Flowdesk Release v3.0 (2025-11-03)\n\n## New\n- Shipped **Custom dashboard widgets** in Dashboards. This directly addresses top customer requests.\n## Fixed\n- Resolved Dashboards performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows Dashboards support tickets down after this release.",
+    "metadata": {
+      "feature": "Custom dashboard widgets",
+      "product_area": "Dashboards",
+      "version": "v3.0"
+    }
+  },
+  {
+    "doc_id": "release-004",
+    "source_type": "release_notes",
+    "title": "Release v4.0 \u2014 2025-12-03",
+    "created_at": "2025-12-03",
+    "text": "# Flowdesk Release v4.0 (2025-12-03)\n\n## New\n- Shipped **Granular notification controls** in Notifications. This directly addresses top customer requests.\n## Fixed\n- Resolved Notifications performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows Notifications support tickets down after this release.",
+    "metadata": {
+      "feature": "Granular notification controls",
+      "product_area": "Notifications",
+      "version": "v4.0"
+    }
+  },
+  {
+    "doc_id": "release-005",
+    "source_type": "release_notes",
+    "title": "Release v5.0 \u2014 2026-01-02",
+    "created_at": "2026-01-02",
+    "text": "# Flowdesk Release v5.0 (2026-01-02)\n\n## New\n- Shipped **CSV export of raw data** in Reporting & Export. This directly addresses top customer requests.\n## Fixed\n- Resolved Reporting & Export performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows Reporting & Export support tickets down after this release.",
+    "metadata": {
+      "feature": "CSV export of raw data",
+      "product_area": "Reporting & Export",
+      "version": "v5.0"
+    }
+  },
+  {
+    "doc_id": "release-006",
+    "source_type": "release_notes",
+    "title": "Release v6.0 \u2014 2026-02-01",
+    "created_at": "2026-02-01",
+    "text": "# Flowdesk Release v6.0 (2026-02-01)\n\n## New\n- Shipped **Global search across workspaces** in Search. This directly addresses top customer requests.\n## Fixed\n- Resolved Search performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows Search support tickets down after this release.",
+    "metadata": {
+      "feature": "Global search across workspaces",
+      "product_area": "Search",
+      "version": "v6.0"
+    }
+  },
+  {
+    "doc_id": "release-007",
+    "source_type": "release_notes",
+    "title": "Release v7.0 \u2014 2026-03-03",
+    "created_at": "2026-03-03",
+    "text": "# Flowdesk Release v7.0 (2026-03-03)\n\n## New\n- Shipped **SSO/SAML support** in User Management & SSO. This directly addresses top customer requests.\n## Fixed\n- Resolved User Management & SSO performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows User Management & SSO support tickets down after this release.",
+    "metadata": {
+      "feature": "SSO/SAML support",
+      "product_area": "User Management & SSO",
+      "version": "v7.0"
+    }
+  },
+  {
+    "doc_id": "release-008",
+    "source_type": "release_notes",
+    "title": "Release v8.0 \u2014 2026-04-02",
+    "created_at": "2026-04-02",
+    "text": "# Flowdesk Release v8.0 (2026-04-02)\n\n## New\n- Shipped **Slack integration** in Integrations. This directly addresses top customer requests.\n## Fixed\n- Resolved Integrations performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows Integrations support tickets down after this release.",
+    "metadata": {
+      "feature": "Slack integration",
+      "product_area": "Integrations",
+      "version": "v8.0"
+    }
+  },
+  {
+    "doc_id": "release-009",
+    "source_type": "release_notes",
+    "title": "Release v9.0 \u2014 2026-05-02",
+    "created_at": "2026-05-02",
+    "text": "# Flowdesk Release v9.0 (2026-05-02)\n\n## New\n- Shipped **Custom dashboard widgets** in Dashboards. This directly addresses top customer requests.\n## Fixed\n- Resolved Dashboards performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows Dashboards support tickets down after this release.",
+    "metadata": {
+      "feature": "Custom dashboard widgets",
+      "product_area": "Dashboards",
+      "version": "v9.0"
+    }
+  },
+  {
+    "doc_id": "release-010",
+    "source_type": "release_notes",
+    "title": "Release v10.0 \u2014 2026-06-01",
+    "created_at": "2026-06-01",
+    "text": "# Flowdesk Release v10.0 (2026-06-01)\n\n## New\n- Shipped **Granular notification controls** in Notifications. This directly addresses top customer requests.\n## Fixed\n- Resolved Notifications performance issues affecting Enterprise accounts.\n- Fixed webhook delivery reliability.\n\n## Impact\nEarly data shows Notifications support tickets down after this release.",
+    "metadata": {
+      "feature": "Granular notification controls",
+      "product_area": "Notifications",
+      "version": "v10.0"
+    }
+  }
+]

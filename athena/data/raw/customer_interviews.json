@@ -1,0 +1,158 @@
+[
+  {
+    "doc_id": "interview-001",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Quill Publishing",
+    "created_at": "2025-12-18",
+    "text": "# Interview: Quill Publishing (SMB)\nDate: 2025-12-18\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Dashboards. It slows the whole team down and there's no 'Granular notification controls'.\n\nQ: If we fixed one thing?\nA: Give us 'Granular notification controls'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Dashboards",
+      "requested_feature": "Granular notification controls"
+    }
+  },
+  {
+    "doc_id": "interview-002",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Sunrise Bank",
+    "created_at": "2026-02-20",
+    "text": "# Interview: Sunrise Bank (Enterprise)\nDate: 2026-02-20\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Mobile App. It slows the whole team down and there's no 'Dark mode'.\n\nQ: If we fixed one thing?\nA: Give us 'Dark mode'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Mobile App",
+      "requested_feature": "Dark mode"
+    }
+  },
+  {
+    "doc_id": "interview-003",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Quill Publishing",
+    "created_at": "2026-03-08",
+    "text": "# Interview: Quill Publishing (SMB)\nDate: 2026-03-08\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Integrations. It slows the whole team down and there's no 'Webhook retries'.\n\nQ: If we fixed one thing?\nA: Give us 'Webhook retries'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "requested_feature": "Webhook retries"
+    }
+  },
+  {
+    "doc_id": "interview-004",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Cobalt Health",
+    "created_at": "2026-03-08",
+    "text": "# Interview: Cobalt Health (Enterprise)\nDate: 2026-03-08\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Dashboards. It slows the whole team down and there's no 'Webhook retries'.\n\nQ: If we fixed one thing?\nA: Give us 'Webhook retries'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Cobalt Health",
+      "tier": "Enterprise",
+      "product_area": "Dashboards",
+      "requested_feature": "Webhook retries"
+    }
+  },
+  {
+    "doc_id": "interview-005",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Acme Robotics",
+    "created_at": "2026-03-12",
+    "text": "# Interview: Acme Robotics (Enterprise)\nDate: 2026-03-12\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Mobile App. It slows the whole team down and there's no 'Slack integration'.\n\nQ: If we fixed one thing?\nA: Give us 'Slack integration'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Acme Robotics",
+      "tier": "Enterprise",
+      "product_area": "Mobile App",
+      "requested_feature": "Slack integration"
+    }
+  },
+  {
+    "doc_id": "interview-006",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 BlueOrbit Media",
+    "created_at": "2026-04-03",
+    "text": "# Interview: BlueOrbit Media (Mid-Market)\nDate: 2026-04-03\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Dashboards. It slows the whole team down and there's no 'Custom dashboard widgets'.\n\nQ: If we fixed one thing?\nA: Give us 'Custom dashboard widgets'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "BlueOrbit Media",
+      "tier": "Mid-Market",
+      "product_area": "Dashboards",
+      "requested_feature": "Custom dashboard widgets"
+    }
+  },
+  {
+    "doc_id": "interview-007",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Vantage Analytics",
+    "created_at": "2026-04-23",
+    "text": "# Interview: Vantage Analytics (Enterprise)\nDate: 2026-04-23\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Notifications. It slows the whole team down and there's no 'Usage-based billing tiers'.\n\nQ: If we fixed one thing?\nA: Give us 'Usage-based billing tiers'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Notifications",
+      "requested_feature": "Usage-based billing tiers"
+    }
+  },
+  {
+    "doc_id": "interview-008",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Vantage Analytics",
+    "created_at": "2026-05-06",
+    "text": "# Interview: Vantage Analytics (Enterprise)\nDate: 2026-05-06\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Billing. It slows the whole team down and there's no 'Real-time cursor presence'.\n\nQ: If we fixed one thing?\nA: Give us 'Real-time cursor presence'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Vantage Analytics",
+      "tier": "Enterprise",
+      "product_area": "Billing",
+      "requested_feature": "Real-time cursor presence"
+    }
+  },
+  {
+    "doc_id": "interview-009",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Northwind Trading",
+    "created_at": "2026-05-21",
+    "text": "# Interview: Northwind Trading (Enterprise)\nDate: 2026-05-21\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Integrations. It slows the whole team down and there's no 'SSO/SAML support'.\n\nQ: If we fixed one thing?\nA: Give us 'SSO/SAML support'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Northwind Trading",
+      "tier": "Enterprise",
+      "product_area": "Integrations",
+      "requested_feature": "SSO/SAML support"
+    }
+  },
+  {
+    "doc_id": "interview-010",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Ferns & Co",
+    "created_at": "2026-05-25",
+    "text": "# Interview: Ferns & Co (SMB)\nDate: 2026-05-25\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Reporting & Export. It slows the whole team down and there's no 'Slack integration'.\n\nQ: If we fixed one thing?\nA: Give us 'Slack integration'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Ferns & Co",
+      "tier": "SMB",
+      "product_area": "Reporting & Export",
+      "requested_feature": "Slack integration"
+    }
+  },
+  {
+    "doc_id": "interview-011",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Sunrise Bank",
+    "created_at": "2026-06-08",
+    "text": "# Interview: Sunrise Bank (Enterprise)\nDate: 2026-06-08\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Real-time Collaboration. It slows the whole team down and there's no 'CSV export of raw data'.\n\nQ: If we fixed one thing?\nA: Give us 'CSV export of raw data'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Sunrise Bank",
+      "tier": "Enterprise",
+      "product_area": "Real-time Collaboration",
+      "requested_feature": "CSV export of raw data"
+    }
+  },
+  {
+    "doc_id": "interview-012",
+    "source_type": "customer_interview",
+    "title": "Customer interview \u2014 Quill Publishing",
+    "created_at": "2026-06-25",
+    "text": "# Interview: Quill Publishing (SMB)\nDate: 2026-06-25\nInterviewer: UX Research\n\nQ: What's your biggest frustration?\nA: Honestly, Integrations. It slows the whole team down and there's no 'Custom dashboard widgets'.\n\nQ: If we fixed one thing?\nA: Give us 'Custom dashboard widgets'. We'd expand our seat count if you did.\n\nQ: How does this compare to alternatives?\nA: A competitor already offers this, which is why we're evaluating switching.",
+    "metadata": {
+      "customer": "Quill Publishing",
+      "tier": "SMB",
+      "product_area": "Integrations",
+      "requested_feature": "Custom dashboard widgets"
+    }
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "doc_id": "gh-001",
+    "source_type": "github_issue",
+    "title": "[performance] API & Webhooks: reported by Peak Outfitters",
+    "created_at": "2025-07-15",
+    "text": "Issue #1000 \u2014 performance in API & Webhooks\nState: closed\nLabels: performance, area:api-&-webhooks\n\nOriginating customer report: Peak Outfitters.\nSteps to reproduce documented. Fixed in release 9.0 and verified.",
+    "metadata": {
+      "product_area": "API & Webhooks",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Peak Outfitters",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-002",
+    "source_type": "github_issue",
+    "title": "[performance] Real-time Collaboration: reported by Ferns & Co",
+    "created_at": "2025-07-23",
+    "text": "Issue #1001 \u2014 performance in Real-time Collaboration\nState: closed\nLabels: performance, area:real-time-collaboration\n\nOriginating customer report: Ferns & Co.\nSteps to reproduce documented. Fixed in release 1.2 and verified.",
+    "metadata": {
+      "product_area": "Real-time Collaboration",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Ferns & Co",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-003",
+    "source_type": "github_issue",
+    "title": "[enhancement] User Management & SSO: reported by Zephyr Logistics",
+    "created_at": "2025-07-26",
+    "text": "Issue #1002 \u2014 enhancement in User Management & SSO\nState: closed\nLabels: enhancement, area:user-management-&-sso\n\nOriginating customer report: Zephyr Logistics.\nSteps to reproduce documented. Fixed in release 6.0 and verified.",
+    "metadata": {
+      "product_area": "User Management & SSO",
+      "state": "closed",
+      "kind": "enhancement",
+      "customer": "Zephyr Logistics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-004",
+    "source_type": "github_issue",
+    "title": "[performance] Notifications: reported by Quill Publishing",
+    "created_at": "2025-07-26",
+    "text": "Issue #1003 \u2014 performance in Notifications\nState: closed\nLabels: performance, area:notifications\n\nOriginating customer report: Quill Publishing.\nSteps to reproduce documented. Fixed in release 2.2 and verified.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Quill Publishing",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-005",
+    "source_type": "github_issue",
+    "title": "[performance] Dashboards: reported by Cobalt Health",
+    "created_at": "2025-07-30",
+    "text": "Issue #1004 \u2014 performance in Dashboards\nState: open\nLabels: performance, area:dashboards\n\nOriginating customer report: Cobalt Health.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Dashboards",
+      "state": "open",
+      "kind": "performance",
+      "customer": "Cobalt Health",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-006",
+    "source_type": "github_issue",
+    "title": "[enhancement] API & Webhooks: reported by BlueOrbit Media",
+    "created_at": "2025-08-28",
+    "text": "Issue #1005 \u2014 enhancement in API & Webhooks\nState: open\nLabels: enhancement, area:api-&-webhooks\n\nOriginating customer report: BlueOrbit Media.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "API & Webhooks",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "BlueOrbit Media",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-007",
+    "source_type": "github_issue",
+    "title": "[enhancement] Mobile App: reported by Peak Outfitters",
+    "created_at": "2025-09-04",
+    "text": "Issue #1006 \u2014 enhancement in Mobile App\nState: open\nLabels: enhancement, area:mobile-app\n\nOriginating customer report: Peak Outfitters.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Peak Outfitters",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-008",
+    "source_type": "github_issue",
+    "title": "[bug] Real-time Collaboration: reported by BlueOrbit Media",
+    "created_at": "2025-09-09",
+    "text": "Issue #1007 \u2014 bug in Real-time Collaboration\nState: open\nLabels: bug, area:real-time-collaboration\n\nOriginating customer report: BlueOrbit Media.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Real-time Collaboration",
+      "state": "open",
+      "kind": "bug",
+      "customer": "BlueOrbit Media",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-009",
+    "source_type": "github_issue",
+    "title": "[bug] Notifications: reported by Acme Robotics",
+    "created_at": "2025-09-11",
+    "text": "Issue #1008 \u2014 bug in Notifications\nState: closed\nLabels: bug, area:notifications\n\nOriginating customer report: Acme Robotics.\nSteps to reproduce documented. Fixed in release 5.7 and verified.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "closed",
+      "kind": "bug",
+      "customer": "Acme Robotics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-010",
+    "source_type": "github_issue",
+    "title": "[enhancement] API & Webhooks: reported by Quill Publishing",
+    "created_at": "2025-09-17",
+    "text": "Issue #1009 \u2014 enhancement in API & Webhooks\nState: open\nLabels: enhancement, area:api-&-webhooks\n\nOriginating customer report: Quill Publishing.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "API & Webhooks",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Quill Publishing",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-011",
+    "source_type": "github_issue",
+    "title": "[performance] User Management & SSO: reported by Acme Robotics",
+    "created_at": "2025-09-17",
+    "text": "Issue #1010 \u2014 performance in User Management & SSO\nState: open\nLabels: performance, area:user-management-&-sso\n\nOriginating customer report: Acme Robotics.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "User Management & SSO",
+      "state": "open",
+      "kind": "performance",
+      "customer": "Acme Robotics",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-012",
+    "source_type": "github_issue",
+    "title": "[enhancement] Mobile App: reported by Peak Outfitters",
+    "created_at": "2025-09-20",
+    "text": "Issue #1011 \u2014 enhancement in Mobile App\nState: open\nLabels: enhancement, area:mobile-app\n\nOriginating customer report: Peak Outfitters.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Peak Outfitters",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-013",
+    "source_type": "github_issue",
+    "title": "[enhancement] Billing: reported by Northwind Trading",
+    "created_at": "2025-09-20",
+    "text": "Issue #1012 \u2014 enhancement in Billing\nState: closed\nLabels: enhancement, area:billing\n\nOriginating customer report: Northwind Trading.\nSteps to reproduce documented. Fixed in release 4.6 and verified.",
+    "metadata": {
+      "product_area": "Billing",
+      "state": "closed",
+      "kind": "enhancement",
+      "customer": "Northwind Trading",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-014",
+    "source_type": "github_issue",
+    "title": "[bug] Real-time Collaboration: reported by Ferns & Co",
+    "created_at": "2025-10-15",
+    "text": "Issue #1013 \u2014 bug in Real-time Collaboration\nState: open\nLabels: bug, area:real-time-collaboration\n\nOriginating customer report: Ferns & Co.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Real-time Collaboration",
+      "state": "open",
+      "kind": "bug",
+      "customer": "Ferns & Co",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-015",
+    "source_type": "github_issue",
+    "title": "[enhancement] Reporting & Export: reported by Ferns & Co",
+    "created_at": "2025-10-28",
+    "text": "Issue #1014 \u2014 enhancement in Reporting & Export\nState: closed\nLabels: enhancement, area:reporting-&-export\n\nOriginating customer report: Ferns & Co.\nSteps to reproduce documented. Fixed in release 6.1 and verified.",
+    "metadata": {
+      "product_area": "Reporting & Export",
+      "state": "closed",
+      "kind": "enhancement",
+      "customer": "Ferns & Co",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-016",
+    "source_type": "github_issue",
+    "title": "[enhancement] Dashboards: reported by BlueOrbit Media",
+    "created_at": "2025-11-01",
+    "text": "Issue #1015 \u2014 enhancement in Dashboards\nState: open\nLabels: enhancement, area:dashboards\n\nOriginating customer report: BlueOrbit Media.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Dashboards",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "BlueOrbit Media",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-017",
+    "source_type": "github_issue",
+    "title": "[performance] Notifications: reported by Cobalt Health",
+    "created_at": "2025-11-11",
+    "text": "Issue #1016 \u2014 performance in Notifications\nState: open\nLabels: performance, area:notifications\n\nOriginating customer report: Cobalt Health.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "open",
+      "kind": "performance",
+      "customer": "Cobalt Health",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-018",
+    "source_type": "github_issue",
+    "title": "[performance] Search: reported by Zephyr Logistics",
+    "created_at": "2025-11-12",
+    "text": "Issue #1017 \u2014 performance in Search\nState: closed\nLabels: performance, area:search\n\nOriginating customer report: Zephyr Logistics.\nSteps to reproduce documented. Fixed in release 2.6 and verified.",
+    "metadata": {
+      "product_area": "Search",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Zephyr Logistics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-019",
+    "source_type": "github_issue",
+    "title": "[enhancement] Dashboards: reported by Acme Robotics",
+    "created_at": "2025-11-22",
+    "text": "Issue #1018 \u2014 enhancement in Dashboards\nState: open\nLabels: enhancement, area:dashboards\n\nOriginating customer report: Acme Robotics.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Dashboards",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Acme Robotics",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-020",
+    "source_type": "github_issue",
+    "title": "[performance] Mobile App: reported by Quill Publishing",
+    "created_at": "2025-11-23",
+    "text": "Issue #1019 \u2014 performance in Mobile App\nState: closed\nLabels: performance, area:mobile-app\n\nOriginating customer report: Quill Publishing.\nSteps to reproduce documented. Fixed in release 7.4 and verified.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Quill Publishing",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-021",
+    "source_type": "github_issue",
+    "title": "[enhancement] Integrations: reported by BlueOrbit Media",
+    "created_at": "2025-11-25",
+    "text": "Issue #1020 \u2014 enhancement in Integrations\nState: open\nLabels: enhancement, area:integrations\n\nOriginating customer report: BlueOrbit Media.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Integrations",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "BlueOrbit Media",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-022",
+    "source_type": "github_issue",
+    "title": "[performance] Real-time Collaboration: reported by Zephyr Logistics",
+    "created_at": "2025-11-27",
+    "text": "Issue #1021 \u2014 performance in Real-time Collaboration\nState: open\nLabels: performance, area:real-time-collaboration\n\nOriginating customer report: Zephyr Logistics.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Real-time Collaboration",
+      "state": "open",
+      "kind": "performance",
+      "customer": "Zephyr Logistics",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-023",
+    "source_type": "github_issue",
+    "title": "[bug] Integrations: reported by Cobalt Health",
+    "created_at": "2025-12-01",
+    "text": "Issue #1022 \u2014 bug in Integrations\nState: open\nLabels: bug, area:integrations\n\nOriginating customer report: Cobalt Health.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Integrations",
+      "state": "open",
+      "kind": "bug",
+      "customer": "Cobalt Health",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-024",
+    "source_type": "github_issue",
+    "title": "[performance] API & Webhooks: reported by Acme Robotics",
+    "created_at": "2025-12-02",
+    "text": "Issue #1023 \u2014 performance in API & Webhooks\nState: closed\nLabels: performance, area:api-&-webhooks\n\nOriginating customer report: Acme Robotics.\nSteps to reproduce documented. Fixed in release 7.4 and verified.",
+    "metadata": {
+      "product_area": "API & Webhooks",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Acme Robotics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-025",
+    "source_type": "github_issue",
+    "title": "[bug] Mobile App: reported by Acme Robotics",
+    "created_at": "2025-12-03",
+    "text": "Issue #1024 \u2014 bug in Mobile App\nState: open\nLabels: bug, area:mobile-app\n\nOriginating customer report: Acme Robotics.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "state": "open",
+      "kind": "bug",
+      "customer": "Acme Robotics",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-026",
+    "source_type": "github_issue",
+    "title": "[performance] Search: reported by Sunrise Bank",
+    "created_at": "2025-12-09",
+    "text": "Issue #1025 \u2014 performance in Search\nState: closed\nLabels: performance, area:search\n\nOriginating customer report: Sunrise Bank.\nSteps to reproduce documented. Fixed in release 4.5 and verified.",
+    "metadata": {
+      "product_area": "Search",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Sunrise Bank",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-027",
+    "source_type": "github_issue",
+    "title": "[performance] Mobile App: reported by BlueOrbit Media",
+    "created_at": "2025-12-22",
+    "text": "Issue #1026 \u2014 performance in Mobile App\nState: closed\nLabels: performance, area:mobile-app\n\nOriginating customer report: BlueOrbit Media.\nSteps to reproduce documented. Fixed in release 4.1 and verified.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "BlueOrbit Media",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-028",
+    "source_type": "github_issue",
+    "title": "[bug] Notifications: reported by Peak Outfitters",
+    "created_at": "2025-12-23",
+    "text": "Issue #1027 \u2014 bug in Notifications\nState: open\nLabels: bug, area:notifications\n\nOriginating customer report: Peak Outfitters.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "open",
+      "kind": "bug",
+      "customer": "Peak Outfitters",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-029",
+    "source_type": "github_issue",
+    "title": "[performance] Notifications: reported by Acme Robotics",
+    "created_at": "2025-12-25",
+    "text": "Issue #1028 \u2014 performance in Notifications\nState: closed\nLabels: performance, area:notifications\n\nOriginating customer report: Acme Robotics.\nSteps to reproduce documented. Fixed in release 3.7 and verified.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Acme Robotics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-030",
+    "source_type": "github_issue",
+    "title": "[performance] Billing: reported by Vantage Analytics",
+    "created_at": "2026-01-01",
+    "text": "Issue #1029 \u2014 performance in Billing\nState: closed\nLabels: performance, area:billing\n\nOriginating customer report: Vantage Analytics.\nSteps to reproduce documented. Fixed in release 6.5 and verified.",
+    "metadata": {
+      "product_area": "Billing",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Vantage Analytics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-031",
+    "source_type": "github_issue",
+    "title": "[enhancement] Notifications: reported by Vantage Analytics",
+    "created_at": "2026-01-02",
+    "text": "Issue #1030 \u2014 enhancement in Notifications\nState: open\nLabels: enhancement, area:notifications\n\nOriginating customer report: Vantage Analytics.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Vantage Analytics",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-032",
+    "source_type": "github_issue",
+    "title": "[performance] User Management & SSO: reported by Northwind Trading",
+    "created_at": "2026-01-03",
+    "text": "Issue #1031 \u2014 performance in User Management & SSO\nState: closed\nLabels: performance, area:user-management-&-sso\n\nOriginating customer report: Northwind Trading.\nSteps to reproduce documented. Fixed in release 6.8 and verified.",
+    "metadata": {
+      "product_area": "User Management & SSO",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Northwind Trading",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-033",
+    "source_type": "github_issue",
+    "title": "[enhancement] Integrations: reported by Northwind Trading",
+    "created_at": "2026-01-09",
+    "text": "Issue #1032 \u2014 enhancement in Integrations\nState: open\nLabels: enhancement, area:integrations\n\nOriginating customer report: Northwind Trading.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Integrations",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Northwind Trading",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-034",
+    "source_type": "github_issue",
+    "title": "[enhancement] Dashboards: reported by Acme Robotics",
+    "created_at": "2026-01-14",
+    "text": "Issue #1033 \u2014 enhancement in Dashboards\nState: open\nLabels: enhancement, area:dashboards\n\nOriginating customer report: Acme Robotics.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Dashboards",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Acme Robotics",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-035",
+    "source_type": "github_issue",
+    "title": "[performance] Integrations: reported by Quill Publishing",
+    "created_at": "2026-01-22",
+    "text": "Issue #1034 \u2014 performance in Integrations\nState: closed\nLabels: performance, area:integrations\n\nOriginating customer report: Quill Publishing.\nSteps to reproduce documented. Fixed in release 8.9 and verified.",
+    "metadata": {
+      "product_area": "Integrations",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Quill Publishing",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-036",
+    "source_type": "github_issue",
+    "title": "[performance] Search: reported by Northwind Trading",
+    "created_at": "2026-01-22",
+    "text": "Issue #1035 \u2014 performance in Search\nState: closed\nLabels: performance, area:search\n\nOriginating customer report: Northwind Trading.\nSteps to reproduce documented. Fixed in release 8.9 and verified.",
+    "metadata": {
+      "product_area": "Search",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Northwind Trading",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-037",
+    "source_type": "github_issue",
+    "title": "[enhancement] Reporting & Export: reported by Sunrise Bank",
+    "created_at": "2026-01-23",
+    "text": "Issue #1036 \u2014 enhancement in Reporting & Export\nState: open\nLabels: enhancement, area:reporting-&-export\n\nOriginating customer report: Sunrise Bank.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Reporting & Export",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Sunrise Bank",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-038",
+    "source_type": "github_issue",
+    "title": "[enhancement] Notifications: reported by Acme Robotics",
+    "created_at": "2026-02-04",
+    "text": "Issue #1037 \u2014 enhancement in Notifications\nState: closed\nLabels: enhancement, area:notifications\n\nOriginating customer report: Acme Robotics.\nSteps to reproduce documented. Fixed in release 6.1 and verified.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "closed",
+      "kind": "enhancement",
+      "customer": "Acme Robotics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-039",
+    "source_type": "github_issue",
+    "title": "[bug] Search: reported by Cobalt Health",
+    "created_at": "2026-02-09",
+    "text": "Issue #1038 \u2014 bug in Search\nState: closed\nLabels: bug, area:search\n\nOriginating customer report: Cobalt Health.\nSteps to reproduce documented. Fixed in release 8.7 and verified.",
+    "metadata": {
+      "product_area": "Search",
+      "state": "closed",
+      "kind": "bug",
+      "customer": "Cobalt Health",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-040",
+    "source_type": "github_issue",
+    "title": "[bug] Search: reported by Zephyr Logistics",
+    "created_at": "2026-02-21",
+    "text": "Issue #1039 \u2014 bug in Search\nState: closed\nLabels: bug, area:search\n\nOriginating customer report: Zephyr Logistics.\nSteps to reproduce documented. Fixed in release 6.4 and verified.",
+    "metadata": {
+      "product_area": "Search",
+      "state": "closed",
+      "kind": "bug",
+      "customer": "Zephyr Logistics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-041",
+    "source_type": "github_issue",
+    "title": "[enhancement] API & Webhooks: reported by Peak Outfitters",
+    "created_at": "2026-03-07",
+    "text": "Issue #1040 \u2014 enhancement in API & Webhooks\nState: open\nLabels: enhancement, area:api-&-webhooks\n\nOriginating customer report: Peak Outfitters.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "API & Webhooks",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Peak Outfitters",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-042",
+    "source_type": "github_issue",
+    "title": "[performance] Dashboards: reported by Zephyr Logistics",
+    "created_at": "2026-03-08",
+    "text": "Issue #1041 \u2014 performance in Dashboards\nState: closed\nLabels: performance, area:dashboards\n\nOriginating customer report: Zephyr Logistics.\nSteps to reproduce documented. Fixed in release 2.5 and verified.",
+    "metadata": {
+      "product_area": "Dashboards",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Zephyr Logistics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-043",
+    "source_type": "github_issue",
+    "title": "[enhancement] Integrations: reported by Ferns & Co",
+    "created_at": "2026-03-09",
+    "text": "Issue #1042 \u2014 enhancement in Integrations\nState: closed\nLabels: enhancement, area:integrations\n\nOriginating customer report: Ferns & Co.\nSteps to reproduce documented. Fixed in release 5.9 and verified.",
+    "metadata": {
+      "product_area": "Integrations",
+      "state": "closed",
+      "kind": "enhancement",
+      "customer": "Ferns & Co",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-044",
+    "source_type": "github_issue",
+    "title": "[performance] Notifications: reported by BlueOrbit Media",
+    "created_at": "2026-03-13",
+    "text": "Issue #1043 \u2014 performance in Notifications\nState: open\nLabels: performance, area:notifications\n\nOriginating customer report: BlueOrbit Media.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "open",
+      "kind": "performance",
+      "customer": "BlueOrbit Media",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-045",
+    "source_type": "github_issue",
+    "title": "[performance] Mobile App: reported by Quill Publishing",
+    "created_at": "2026-03-15",
+    "text": "Issue #1044 \u2014 performance in Mobile App\nState: open\nLabels: performance, area:mobile-app\n\nOriginating customer report: Quill Publishing.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "state": "open",
+      "kind": "performance",
+      "customer": "Quill Publishing",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-046",
+    "source_type": "github_issue",
+    "title": "[bug] Notifications: reported by Ferns & Co",
+    "created_at": "2026-04-13",
+    "text": "Issue #1045 \u2014 bug in Notifications\nState: closed\nLabels: bug, area:notifications\n\nOriginating customer report: Ferns & Co.\nSteps to reproduce documented. Fixed in release 9.6 and verified.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "closed",
+      "kind": "bug",
+      "customer": "Ferns & Co",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-047",
+    "source_type": "github_issue",
+    "title": "[performance] Mobile App: reported by Sunrise Bank",
+    "created_at": "2026-04-14",
+    "text": "Issue #1046 \u2014 performance in Mobile App\nState: closed\nLabels: performance, area:mobile-app\n\nOriginating customer report: Sunrise Bank.\nSteps to reproduce documented. Fixed in release 2.6 and verified.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Sunrise Bank",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-048",
+    "source_type": "github_issue",
+    "title": "[enhancement] Search: reported by Ferns & Co",
+    "created_at": "2026-04-26",
+    "text": "Issue #1047 \u2014 enhancement in Search\nState: open\nLabels: enhancement, area:search\n\nOriginating customer report: Ferns & Co.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Search",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Ferns & Co",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-049",
+    "source_type": "github_issue",
+    "title": "[enhancement] Notifications: reported by Vantage Analytics",
+    "created_at": "2026-04-30",
+    "text": "Issue #1048 \u2014 enhancement in Notifications\nState: closed\nLabels: enhancement, area:notifications\n\nOriginating customer report: Vantage Analytics.\nSteps to reproduce documented. Fixed in release 4.3 and verified.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "closed",
+      "kind": "enhancement",
+      "customer": "Vantage Analytics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-050",
+    "source_type": "github_issue",
+    "title": "[enhancement] Notifications: reported by Acme Robotics",
+    "created_at": "2026-05-04",
+    "text": "Issue #1049 \u2014 enhancement in Notifications\nState: open\nLabels: enhancement, area:notifications\n\nOriginating customer report: Acme Robotics.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Acme Robotics",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-051",
+    "source_type": "github_issue",
+    "title": "[performance] Search: reported by Sunrise Bank",
+    "created_at": "2026-05-07",
+    "text": "Issue #1050 \u2014 performance in Search\nState: closed\nLabels: performance, area:search\n\nOriginating customer report: Sunrise Bank.\nSteps to reproduce documented. Fixed in release 1.5 and verified.",
+    "metadata": {
+      "product_area": "Search",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Sunrise Bank",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-052",
+    "source_type": "github_issue",
+    "title": "[enhancement] Real-time Collaboration: reported by BlueOrbit Media",
+    "created_at": "2026-05-09",
+    "text": "Issue #1051 \u2014 enhancement in Real-time Collaboration\nState: open\nLabels: enhancement, area:real-time-collaboration\n\nOriginating customer report: BlueOrbit Media.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Real-time Collaboration",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "BlueOrbit Media",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-053",
+    "source_type": "github_issue",
+    "title": "[performance] Notifications: reported by Peak Outfitters",
+    "created_at": "2026-05-13",
+    "text": "Issue #1052 \u2014 performance in Notifications\nState: open\nLabels: performance, area:notifications\n\nOriginating customer report: Peak Outfitters.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "open",
+      "kind": "performance",
+      "customer": "Peak Outfitters",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-054",
+    "source_type": "github_issue",
+    "title": "[bug] Notifications: reported by Quill Publishing",
+    "created_at": "2026-05-14",
+    "text": "Issue #1053 \u2014 bug in Notifications\nState: closed\nLabels: bug, area:notifications\n\nOriginating customer report: Quill Publishing.\nSteps to reproduce documented. Fixed in release 6.3 and verified.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "closed",
+      "kind": "bug",
+      "customer": "Quill Publishing",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-055",
+    "source_type": "github_issue",
+    "title": "[performance] Billing: reported by Vantage Analytics",
+    "created_at": "2026-05-15",
+    "text": "Issue #1054 \u2014 performance in Billing\nState: closed\nLabels: performance, area:billing\n\nOriginating customer report: Vantage Analytics.\nSteps to reproduce documented. Fixed in release 4.8 and verified.",
+    "metadata": {
+      "product_area": "Billing",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Vantage Analytics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-056",
+    "source_type": "github_issue",
+    "title": "[enhancement] Reporting & Export: reported by Cobalt Health",
+    "created_at": "2026-05-16",
+    "text": "Issue #1055 \u2014 enhancement in Reporting & Export\nState: open\nLabels: enhancement, area:reporting-&-export\n\nOriginating customer report: Cobalt Health.\nSteps to reproduce documented. Still under investigation.",
+    "metadata": {
+      "product_area": "Reporting & Export",
+      "state": "open",
+      "kind": "enhancement",
+      "customer": "Cobalt Health",
+      "fixed": false
+    }
+  },
+  {
+    "doc_id": "gh-057",
+    "source_type": "github_issue",
+    "title": "[performance] Mobile App: reported by Vantage Analytics",
+    "created_at": "2026-05-19",
+    "text": "Issue #1056 \u2014 performance in Mobile App\nState: closed\nLabels: performance, area:mobile-app\n\nOriginating customer report: Vantage Analytics.\nSteps to reproduce documented. Fixed in release 8.4 and verified.",
+    "metadata": {
+      "product_area": "Mobile App",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Vantage Analytics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-058",
+    "source_type": "github_issue",
+    "title": "[enhancement] API & Webhooks: reported by BlueOrbit Media",
+    "created_at": "2026-05-28",
+    "text": "Issue #1057 \u2014 enhancement in API & Webhooks\nState: closed\nLabels: enhancement, area:api-&-webhooks\n\nOriginating customer report: BlueOrbit Media.\nSteps to reproduce documented. Fixed in release 4.9 and verified.",
+    "metadata": {
+      "product_area": "API & Webhooks",
+      "state": "closed",
+      "kind": "enhancement",
+      "customer": "BlueOrbit Media",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-059",
+    "source_type": "github_issue",
+    "title": "[bug] Notifications: reported by Vantage Analytics",
+    "created_at": "2026-06-01",
+    "text": "Issue #1058 \u2014 bug in Notifications\nState: closed\nLabels: bug, area:notifications\n\nOriginating customer report: Vantage Analytics.\nSteps to reproduce documented. Fixed in release 6.8 and verified.",
+    "metadata": {
+      "product_area": "Notifications",
+      "state": "closed",
+      "kind": "bug",
+      "customer": "Vantage Analytics",
+      "fixed": true
+    }
+  },
+  {
+    "doc_id": "gh-060",
+    "source_type": "github_issue",
+    "title": "[performance] Integrations: reported by Acme Robotics",
+    "created_at": "2026-06-05",
+    "text": "Issue #1059 \u2014 performance in Integrations\nState: closed\nLabels: performance, area:integrations\n\nOriginating customer report: Acme Robotics.\nSteps to reproduce documented. Fixed in release 5.1 and verified.",
+    "metadata": {
+      "product_area": "Integrations",
+      "state": "closed",
+      "kind": "performance",
+      "customer": "Acme Robotics",
+      "fixed": true
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "doc_id": "competitor-001",
+    "source_type": "competitor_analysis",
+    "title": "Competitive analysis: Tandem",
+    "created_at": "2026-04-19",
+    "text": "# Competitor Analysis \u2014 Tandem\nDate: 2026-04-19\n\n## Strengths\nTandem is strong in: Reporting & Export, User Management & SSO, Integrations. Notably they ship SSO/SAML and global search out of the box.\n\n## Weaknesses\nWeaker in: Dashboards, Notifications.\n\n## Threat assessment\nWe are losing evaluations where customers need SSO and cross-workspace search \u2014 both frequent Flowdesk requests. Recommend prioritizing these to defend Enterprise deals.",
+    "metadata": {
+      "competitor": "Tandem",
+      "strengths": [
+        "Reporting & Export",
+        "User Management & SSO",
+        "Integrations"
+      ],
+      "weaknesses": [
+        "Dashboards",
+        "Notifications"
+      ]
+    }
+  },
+  {
+    "doc_id": "competitor-002",
+    "source_type": "competitor_analysis",
+    "title": "Competitive analysis: GridWork",
+    "created_at": "2026-03-27",
+    "text": "# Competitor Analysis \u2014 GridWork\nDate: 2026-03-27\n\n## Strengths\nGridWork is strong in: Real-time Collaboration, Billing, Integrations. Notably they ship SSO/SAML and global search out of the box.\n\n## Weaknesses\nWeaker in: Dashboards, User Management & SSO.\n\n## Threat assessment\nWe are losing evaluations where customers need SSO and cross-workspace search \u2014 both frequent Flowdesk requests. Recommend prioritizing these to defend Enterprise deals.",
+    "metadata": {
+      "competitor": "GridWork",
+      "strengths": [
+        "Real-time Collaboration",
+        "Billing",
+        "Integrations"
+      ],
+      "weaknesses": [
+        "Dashboards",
+        "User Management & SSO"
+      ]
+    }
+  },
+  {
+    "doc_id": "competitor-003",
+    "source_type": "competitor_analysis",
+    "title": "Competitive analysis: Nimbus Suite",
+    "created_at": "2026-05-05",
+    "text": "# Competitor Analysis \u2014 Nimbus Suite\nDate: 2026-05-05\n\n## Strengths\nNimbus Suite is strong in: Search, Dashboards, Reporting & Export. Notably they ship SSO/SAML and global search out of the box.\n\n## Weaknesses\nWeaker in: Billing, Notifications.\n\n## Threat assessment\nWe are losing evaluations where customers need SSO and cross-workspace search \u2014 both frequent Flowdesk requests. Recommend prioritizing these to defend Enterprise deals.",
+    "metadata": {
+      "competitor": "Nimbus Suite",
+      "strengths": [
+        "Search",
+        "Dashboards",
+        "Reporting & Export"
+      ],
+      "weaknesses": [
+        "Billing",
+        "Notifications"
+      ]
+    }
+  }
+]
