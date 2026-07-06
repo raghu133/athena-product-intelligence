@@ -43,6 +43,24 @@ li { margin: 3px 0; }
 .cover .sub { font-size: 14px; color: #555; }
 .cover .meta { font-size: 11px; color: #888; margin-top: 40px; }
 hr { border: none; border-top: 1px solid #ddd; }
+
+/* --- Flow diagram (replaces the ASCII art in the PDF) --- */
+.diagram { margin: 10px 0 4px 0; }
+.dstage { border: 1.5px solid #6C5CE7; background: #f4f2fd; border-radius: 6px;
+          padding: 7px 10px; margin: 0 auto; text-align: center; }
+.dstage .t { font-weight: bold; color: #4b3fbb; font-size: 11px; }
+.dstage .s { color: #555; font-size: 8.5px; }
+.dstage.wide { width: 78%; }
+.dstage.data { background: #eef7f0; border-color: #3aa860; }
+.dstage.data .t { color: #2b7a49; }
+.dstage.store { background: #fff6ee; border-color: #e08a3a; }
+.dstage.store .t { color: #b5651d; }
+.dstage.ui { background: #eef2fb; border-color: #3a63c0; }
+.dstage.ui .t { color: #2b4a94; }
+.darrow { text-align: center; color: #6C5CE7; font-size: 13px; margin: 2px 0; }
+.drow { width: 100%; }
+.drow td { border: none; padding: 3px; vertical-align: top; width: 33%; }
+.dcap { text-align: center; font-size: 8px; color: #888; margin-top: 6px; }
 """
 
 COVER = """
@@ -82,8 +100,54 @@ ARCH_FOOTER = ('<div id="footerContent" style="text-align:center;color:#999;font
                'Athena — Architecture Documentation</div>')
 
 
+# Clean HTML flow diagram that replaces the ASCII art from the markdown when
+# rendering to PDF (the ASCII stays in the .md for GitHub readability).
+DIAGRAM_HTML = """
+<div class="diagram">
+  <div class="dstage data wide"><div class="t">8 SOURCE TYPES</div>
+    <div class="s">tickets · feedback · PRDs · meeting notes · GitHub issues · release notes · interviews · competitor analysis</div></div>
+  <div class="darrow">&#9660;</div>
+  <div class="dstage wide"><div class="t">INGESTION</div>
+    <div class="s">load &rarr; chunk &rarr; enrich metadata (entities, themes, sentiment)</div></div>
+  <div class="darrow">&#9660;</div>
+  <div class="dstage store wide"><div class="t">KNOWLEDGE STORE</div>
+    <div class="s">Chroma dense vectors (Gemini embeddings) &nbsp;+&nbsp; BM25 sparse index &nbsp;+&nbsp; entity / sentiment knowledge graph</div></div>
+  <div class="darrow">&#9660;</div>
+  <div class="dstage wide"><div class="t">RETRIEVAL</div>
+    <div class="s">hybrid dense + sparse &rarr; Reciprocal Rank Fusion &rarr; LLM rerank &rarr; metadata filter</div></div>
+  <div class="darrow">&#9660;</div>
+  <table class="drow"><tr>
+    <td><div class="dstage"><div class="t">RAG QA</div><div class="s">fast cited answer</div></div></td>
+    <td><div class="dstage"><div class="t">MULTI-AGENT DEEP RESEARCH</div><div class="s">plan &rarr; research &rarr; validate &rarr; synthesize</div></div></td>
+    <td><div class="dstage"><div class="t">REPORTS</div><div class="s">exec / trends / customer / product</div></div></td>
+  </tr></table>
+  <div class="darrow">&#9660;</div>
+  <table class="drow"><tr>
+    <td style="width:50%"><div class="dstage data"><div class="t">LONG-TERM MEMORY</div><div class="s">recalls prior findings; compounds across sessions</div></div></td>
+    <td style="width:50%"><div class="dstage data"><div class="t">OBSERVABILITY &amp; EVALUATION</div><div class="s">per-step tracing + LLM-as-judge metrics</div></div></td>
+  </tr></table>
+  <div class="darrow">&#9660;</div>
+  <div class="dstage ui wide"><div class="t">STREAMLIT UI</div>
+    <div class="s">Chat &middot; Deep Research &middot; Reports &middot; Knowledge Explorer &middot; Evaluation &middot; Traces</div></div>
+  <div class="dcap">Data flows top&#8594;bottom; retrieval fans out to three engines that share memory, tracing, and the UI.</div>
+</div>
+"""
+
+
+def _swap_diagram(html_body: str) -> str:
+    """Replace the first <pre> block (the ASCII system-overview diagram) with the
+    styled HTML diagram. Only the overview diagram is a full-width box drawing;
+    other <pre> blocks (short code) are left as-is."""
+    import re as _re
+    m = _re.search(r"<pre>.*?INGESTION.*?</pre>", html_body, _re.DOTALL)
+    if m:
+        return html_body[:m.start()] + DIAGRAM_HTML + html_body[m.end():]
+    return html_body
+
+
 def _render(md_text: str, cover: str, footer: str, out_path) -> int:
     html_body = md.markdown(md_text, extensions=["tables", "fenced_code", "toc"])
+    html_body = _swap_diagram(html_body)
     html = f"<html><head><style>{CSS}</style></head><body>{footer}{cover}{html_body}</body></html>"
     out_path.parent.mkdir(exist_ok=True)
     with open(out_path, "wb") as f:
