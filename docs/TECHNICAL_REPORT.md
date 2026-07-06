@@ -1,7 +1,6 @@
 # Athena — Technical Report
 
 **Project:** Autonomous Product Intelligence & Decision Support System
-**Submitted for:** XORSTACK AI/ML Internship
 
 ---
 

@@ -51,7 +51,6 @@ COVER = """
   <div class="sub">Autonomous Product Intelligence &amp; Decision Support System</div>
   <div class="sub" style="margin-top:8px;">Technical Report</div>
   <div class="meta">
-    XORSTACK AI/ML Internship<br/>
     Agentic RAG &middot; Multi-agent deep research &middot; Long-term memory<br/>
     Google Gemini &middot; Hybrid retrieval &middot; Evaluation &amp; observability
   </div>
@@ -60,7 +59,7 @@ COVER = """
 """
 
 FOOTER = ('<div id="footerContent" style="text-align:center;color:#999;font-size:8px;">'
-          'Athena — Technical Report — XORSTACK AI/ML Internship</div>')
+          'Athena — Technical Report</div>')
 
 
 def build() -> int:

@@ -1,8 +1,7 @@
 # CLAUDE.md — Athena project context
 
-Athena is an Autonomous Product Intelligence & Decision Support System (XORSTACK
-AI/ML internship task). It's an agentic RAG analyst over a synthetic multi-source
-SaaS knowledge base.
+Athena is an Autonomous Product Intelligence & Decision Support System. It's an
+agentic RAG analyst over a synthetic multi-source SaaS knowledge base.
 
 ## Stack
 - **LLM + embeddings:** Google Gemini via `google-genai` SDK. Model IDs live ONLY

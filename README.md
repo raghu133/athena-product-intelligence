@@ -2,8 +2,6 @@
 
 > An AI-powered Product Intelligence Analyst for a fast-growing SaaS company. Athena ingests knowledge from many organizational sources, indexes it, and acts as an **autonomous knowledge worker** that retrieves, reasons, plans, researches, validates, remembers, and reports — with every answer backed by traceable evidence.
 
-Built for the **XORSTACK AI/ML Internship** project task.
-
 ---
 
 ## What it does
