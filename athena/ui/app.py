@@ -99,17 +99,22 @@ def tab_chat():
     with st.expander("Filter sources (optional)"):
         chosen = st.multiselect("Limit retrieval to source types",
                                 SOURCE_TYPES, default=[])
-    q = st.text_input("Your question",
-                      placeholder="e.g. Which product areas generate the most negative feedback?")
     examples = [
         "What are the most common customer complaints?",
         "Which requested features have not yet been prioritized?",
         "Which customer issues were eventually fixed?",
     ]
+
+    def _pick_chat(text: str):
+        st.session_state["chat_q"] = text
+
     cols = st.columns(len(examples))
     for i, ex in enumerate(examples):
-        if cols[i].button(ex, key=f"ex_chat_{i}"):
-            q = ex
+        cols[i].button(ex, key=f"ex_chat_{i}", on_click=_pick_chat, args=(ex,))
+
+    q = st.text_input("Your question",
+                      placeholder="e.g. Which product areas generate the most negative feedback?",
+                      key="chat_q")
 
     if q:
         kb, _ = boot()
@@ -126,21 +131,25 @@ def tab_research():
     st.caption("Multi-agent pipeline: **plan → research → validate → synthesize**, "
                "with long-term memory. Best for complex, multi-part questions.")
     use_mem = st.toggle("Use long-term memory", value=True)
-    q = st.text_input("Research question",
-                      placeholder="e.g. What are the biggest drivers of customer dissatisfaction "
-                                  "and what should we prioritize next quarter?",
-                      key="research_q")
     examples = [
         "What are the biggest drivers of customer dissatisfaction, and what should we prioritize next quarter?",
         "Generate an executive summary of major risks, opportunities, and recommendations.",
         "Which feature requests appear most frequently across tickets, feedback, and meetings, and which are unaddressed?",
     ]
-    for i, ex in enumerate(examples):
-        if st.button(ex, key=f"ex_res_{i}"):
-            q = ex
-            st.session_state["research_q"] = ex
+    # Example buttons seed the text box via a callback that runs BEFORE the widget
+    # is instantiated on the next rerun — the supported way to set a widget's value.
+    def _pick(text: str):
+        st.session_state["research_q"] = text
 
-    if st.button("▶ Run deep research", type="primary") or (q and st.session_state.get("_auto_run")):
+    for i, ex in enumerate(examples):
+        st.button(ex, key=f"ex_res_{i}", on_click=_pick, args=(ex,))
+
+    q = st.text_input("Research question",
+                      placeholder="e.g. What are the biggest drivers of customer dissatisfaction "
+                                  "and what should we prioritize next quarter?",
+                      key="research_q")
+
+    if st.button("▶ Run deep research", type="primary"):
         if not q:
             st.warning("Enter a question first.")
             return

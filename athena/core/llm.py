@@ -252,7 +252,22 @@ def embed(
 
 
 def embed_query(text: str, trace: Optional[Trace] = None) -> list[float]:
-    return embed([text], task_type="RETRIEVAL_QUERY", trace=trace)[0]
+    """Embed a search query, served from the persistent cache when possible.
+
+    Query embeddings are cached like document embeddings so that repeated or
+    previously-seen questions (e.g. the demo's example questions, or the same
+    sub-question across a research run) don't spend fresh embedding quota. This
+    keeps the app usable under the Gemini free-tier daily embedding cap."""
+    from athena.retrieval.embed_cache import EmbedCache
+
+    cache = EmbedCache()
+    hit = cache.get(text, settings.embed_model, "RETRIEVAL_QUERY")
+    if hit is not None:
+        return hit
+    vec = embed([text], task_type="RETRIEVAL_QUERY", trace=trace)[0]
+    cache.put(text, settings.embed_model, "RETRIEVAL_QUERY", vec)
+    cache.save()
+    return vec
 
 
 # --- helpers -------------------------------------------------------------
