@@ -50,8 +50,21 @@ def _guard() -> bool:
         return False
     kb, _ = boot()
     if not kb.is_ready:
-        st.warning("**Knowledge base is empty.** Build it first:\n\n"
-                   "```bash\npython -m athena.scripts.build_index\n```")
+        st.warning("**Knowledge base is not built yet.** Building it indexes the "
+                   "281-document sample corpus (embeds via Gemini — takes ~1–2 min).")
+        if st.button("🔧 Build knowledge base now", type="primary"):
+            from athena.ingestion.generate_dataset import generate_all
+            from athena.core.config import RAW_DIR
+            if not list(RAW_DIR.glob("*.json")):
+                generate_all()
+            with st.spinner("Generating dataset + embedding + indexing…"):
+                stats = kb.build(reset=True)
+            st.success(f"Built: {stats['vectors']} chunks, {stats['entities']} entities.")
+            st.cache_resource.clear()
+            st.rerun()
+        st.info("On a hosted deploy (Streamlit Cloud), click the button above once — "
+                "the index persists for the session. Locally you can also run "
+                "`python -m athena.scripts.build_index`.")
         return False
     return True
 

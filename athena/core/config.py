@@ -29,7 +29,17 @@ for _p in (RAW_DIR, STORE_DIR, CHROMA_DIR, TRACE_DIR):
 
 
 def _env(key: str, default: str) -> str:
-    return os.environ.get(key, default)
+    # Priority: real env var, then Streamlit secrets (for hosted deploys), then default.
+    val = os.environ.get(key)
+    if val:
+        return val
+    try:
+        import streamlit as st  # available in the Streamlit runtime only
+        if key in st.secrets:
+            return str(st.secrets[key])
+    except Exception:  # noqa: BLE001 — not running under Streamlit, or no secrets file
+        pass
+    return default
 
 
 @dataclass(frozen=True)
