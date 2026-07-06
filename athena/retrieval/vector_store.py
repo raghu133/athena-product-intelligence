@@ -36,14 +36,42 @@ class VectorStore:
 
     # --- indexing --------------------------------------------------------
     def add(self, chunks: list[Chunk], trace: Optional[Trace] = None) -> None:
+        """Embed and index chunks. Uses a persistent embedding cache so a build
+        that is interrupted (e.g. by a rate limit) resumes where it stopped on
+        the next run instead of re-embedding everything."""
         if not chunks:
             return
-        texts = [c.text for c in chunks]
-        vectors = llm.embed(texts, task_type="RETRIEVAL_DOCUMENT", trace=trace)
+        from athena.retrieval.embed_cache import EmbedCache
+
+        cache = EmbedCache()
+        model, task = settings.embed_model, "RETRIEVAL_DOCUMENT"
+
+        # Split into cached vs. to-embed, preserving order.
+        vectors: list[Optional[list[float]]] = [None] * len(chunks)
+        pending_idx: list[int] = []
+        for i, c in enumerate(chunks):
+            hit = cache.get(c.text, model, task)
+            if hit is not None:
+                vectors[i] = hit
+            else:
+                pending_idx.append(i)
+
+        # Embed only the misses, in batches, persisting the cache after each
+        # batch so partial progress survives a later failure.
+        batch = settings.embed_batch_size
+        for start in range(0, len(pending_idx), batch):
+            idxs = pending_idx[start:start + batch]
+            batch_texts = [chunks[i].text for i in idxs]
+            batch_vecs = llm.embed(batch_texts, task_type=task, trace=trace)
+            for i, v in zip(idxs, batch_vecs):
+                vectors[i] = v
+                cache.put(chunks[i].text, model, task, v)
+            cache.save()  # checkpoint: resumable from here if next batch fails
+
         self._col.add(
             ids=[c.chunk_id for c in chunks],
-            embeddings=vectors,
-            documents=texts,
+            embeddings=[v for v in vectors],  # all populated at this point
+            documents=[c.text for c in chunks],
             metadatas=[_flatten_meta(c) for c in chunks],
         )
 

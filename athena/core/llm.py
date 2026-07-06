@@ -54,6 +54,17 @@ class _Transient(Exception):
         self.retry_after = retry_after
 
 
+class QuotaExhausted(RuntimeError):
+    """The daily free-tier quota is used up. Retrying is futile (resets at
+    midnight US Pacific), so we fail fast with a clear, actionable message
+    instead of burning attempts."""
+
+
+def _is_daily_quota(exc: BaseException) -> bool:
+    msg = str(exc).lower()
+    return "perday" in msg or "requests_per_day" in msg or "requestsperday" in msg
+
+
 def _is_transient(exc: BaseException) -> bool:
     msg = str(exc).lower()
     return any(s in msg for s in ("429", "resource_exhausted", "unavailable", "503",
@@ -88,6 +99,12 @@ def _call(fn, *args, **kwargs):
     try:
         return fn(*args, **kwargs)
     except Exception as exc:  # noqa: BLE001
+        if _is_daily_quota(exc):
+            raise QuotaExhausted(
+                "Gemini daily free-tier quota is exhausted (resets ~midnight US "
+                "Pacific). Any embeddings computed so far are cached, so re-running "
+                "the build later resumes where it stopped."
+            ) from exc
         if _is_transient(exc):
             raise _Transient(str(exc), _parse_retry_after(str(exc))) from exc
         raise
@@ -102,10 +119,16 @@ def generate(
     system: Optional[str] = None,
     temperature: float = 0.2,
     max_tokens: int = 2048,
+    thinking: bool = True,
     trace: Optional[Trace] = None,
     span_name: str = "generate",
 ) -> str:
-    """Generate text. `model` defaults to the fast model."""
+    """Generate text. `model` defaults to the fast model.
+
+    Gemini 2.5 models are 'thinking' models that spend output tokens on internal
+    reasoning before answering. For deep synthesis we keep thinking on; for short
+    utility outputs set thinking=False so the token budget isn't consumed by
+    reasoning (which can otherwise return an empty answer)."""
     from google.genai import types
 
     client = _get_client()
@@ -114,6 +137,7 @@ def generate(
         temperature=temperature,
         max_output_tokens=max_tokens,
         system_instruction=system,
+        thinking_config=None if thinking else types.ThinkingConfig(thinking_budget=0),
     )
 
     def _do() -> str:
@@ -142,11 +166,15 @@ def generate_json(
     system: Optional[str] = None,
     temperature: float = 0.1,
     max_tokens: int = 2048,
+    thinking: bool = False,
     trace: Optional[Trace] = None,
     span_name: str = "generate_json",
 ) -> Any:
     """Generate and parse strict JSON. Uses Gemini's JSON response mode and a
-    defensive fallback parser for the occasional stray markdown fence."""
+    defensive fallback parser for the occasional stray markdown fence.
+
+    Thinking defaults OFF here: structured extraction/planning/rerank calls are
+    short and benefit from the full token budget going to the JSON output."""
     from google.genai import types
 
     client = _get_client()
@@ -156,6 +184,7 @@ def generate_json(
         max_output_tokens=max_tokens,
         system_instruction=system,
         response_mime_type="application/json",
+        thinking_config=None if thinking else types.ThinkingConfig(thinking_budget=0),
     )
 
     def _do() -> Any:
