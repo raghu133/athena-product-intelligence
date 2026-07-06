@@ -45,10 +45,15 @@ def _env(key: str, default: str) -> str:
 @dataclass(frozen=True)
 class Settings:
     # --- Gemini models (verified current as of 2026-07; see docs) ---------
-    # Flash: agentic/retrieval reasoning. Pro: deep synthesis & reports.
+    # Flash: agentic/retrieval reasoning. Deep: synthesis & reports.
     # Flash-lite: cheap high-volume ingestion tasks. Embedding: RAG vectors.
+    #
+    # NOTE: `model_deep` defaults to flash (not pro) because gemini-2.5-pro has a
+    # much lower free-tier quota that throttles synthesis/reports during a demo.
+    # Flash produces strong synthesis and is reliable. Set GEMINI_MODEL_DEEP=
+    # gemini-2.5-pro if your project has paid Pro quota and you want max quality.
     model_fast: str = field(default_factory=lambda: _env("GEMINI_MODEL_FAST", "gemini-2.5-flash"))
-    model_deep: str = field(default_factory=lambda: _env("GEMINI_MODEL_DEEP", "gemini-2.5-pro"))
+    model_deep: str = field(default_factory=lambda: _env("GEMINI_MODEL_DEEP", "gemini-2.5-flash"))
     model_bulk: str = field(default_factory=lambda: _env("GEMINI_MODEL_BULK", "gemini-2.5-flash-lite"))
     embed_model: str = field(default_factory=lambda: _env("GEMINI_EMBED_MODEL", "gemini-embedding-001"))
 
@@ -67,7 +72,9 @@ class Settings:
     # --- Agent knobs -----------------------------------------------------
     max_subquestions: int = 6          # planner decomposition breadth
     max_research_rounds: int = 2       # follow-up research iterations
-    embed_batch_size: int = 8          # conservative for free-tier embed limits
+    # 50 texts/request is the max the free tier accepts per embed call, so the
+    # full 281-chunk corpus needs only ~6 requests — well under the 100/min cap.
+    embed_batch_size: int = 50
 
     @property
     def has_api_key(self) -> bool:

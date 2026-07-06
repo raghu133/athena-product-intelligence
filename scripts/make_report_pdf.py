@@ -62,23 +62,52 @@ FOOTER = ('<div id="footerContent" style="text-align:center;color:#999;font-size
           'Athena — Technical Report</div>')
 
 
+ARCH_OUT = DOCS / "Athena_Architecture.pdf"
+
+ARCH_COVER = """
+<div class="cover">
+  <h1>Athena</h1>
+  <div class="sub">Autonomous Product Intelligence &amp; Decision Support System</div>
+  <div class="sub" style="margin-top:8px;">Architecture Documentation</div>
+  <div class="meta">
+    Ingestion &middot; Hybrid retrieval (dense + BM25 + RRF + rerank)<br/>
+    Multi-agent deep research &middot; Long-term memory &middot; Knowledge graph<br/>
+    Evaluation &amp; observability &middot; Google Gemini
+  </div>
+</div>
+<pdf:nextpage/>
+"""
+
+ARCH_FOOTER = ('<div id="footerContent" style="text-align:center;color:#999;font-size:8px;">'
+               'Athena — Architecture Documentation</div>')
+
+
+def _render(md_text: str, cover: str, footer: str, out_path) -> int:
+    html_body = md.markdown(md_text, extensions=["tables", "fenced_code", "toc"])
+    html = f"<html><head><style>{CSS}</style></head><body>{footer}{cover}{html_body}</body></html>"
+    out_path.parent.mkdir(exist_ok=True)
+    with open(out_path, "wb") as f:
+        result = pisa.CreatePDF(html, dest=f)
+    if result.err:
+        print(f"[error] PDF generation reported errors for {out_path.name}")
+        return 1
+    print(f"[ok] wrote {out_path} ({out_path.stat().st_size // 1024} KB)")
+    return 0
+
+
 def build() -> int:
     tr = (DOCS / "TECHNICAL_REPORT.md").read_text(encoding="utf-8")
     arch = (DOCS / "ARCHITECTURE.md").read_text(encoding="utf-8")
+
+    # 1) Technical report (with architecture appendix)
     combined = tr + "\n\n<pdf:nextpage/>\n\n# Appendix: Architecture\n\n" + \
         arch.split("\n", 1)[1]  # drop arch's duplicate H1
+    rc = _render(combined, COVER, FOOTER, OUT)
 
-    html_body = md.markdown(combined, extensions=["tables", "fenced_code", "toc"])
-    html = f"<html><head><style>{CSS}</style></head><body>{FOOTER}{COVER}{html_body}</body></html>"
-
-    OUT.parent.mkdir(exist_ok=True)
-    with open(OUT, "wb") as f:
-        result = pisa.CreatePDF(html, dest=f)
-    if result.err:
-        print("[error] PDF generation reported errors")
-        return 1
-    print(f"[ok] wrote {OUT} ({OUT.stat().st_size // 1024} KB)")
-    return 0
+    # 2) Standalone architecture document
+    arch_body = arch.split("\n", 1)[1]  # drop its H1 (cover has the title)
+    rc |= _render(arch_body, ARCH_COVER, ARCH_FOOTER, ARCH_OUT)
+    return rc
 
 
 if __name__ == "__main__":
